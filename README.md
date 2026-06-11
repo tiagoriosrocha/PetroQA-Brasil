@@ -1,41 +1,41 @@
 # PetroQA-Brasil
 
-`PetroQA-Brasil` e um projeto de criacao, curadoria e auditoria de um dataset de question-answering em portugues voltado para Geociencias, com enfase em Geologia do Petroleo. O foco do projeto nao e responder perguntas por simples extracao literal do contexto, mas construir itens em que a resposta esperada dependa de inferencia relacional entre entidades, processos e propriedades geologicas descritas em fontes reais.
+`PetroQA-Brasil` é um projeto de criação, curadoria e auditoria de um dataset de question-answering em português voltado para Geociências, com ênfase em Geologia do Petróleo. O foco do projeto não é responder perguntas por simples extração literal do contexto, mas construir itens em que a resposta esperada dependa de inferência relacional entre entidades, processos e propriedades geológicas descritas em fontes reais.
 
-A versao atualmente presente neste repositorio contem:
+A versão atualmente presente neste repositório contém:
 
 - `dataset_full.json`: dataset final em JSON, com 150 itens;
-- `dataset_full.csv`: dataset final em csv, com 150 itens;
-- `sources.csv`: catalogo de 20 fontes em portugues usadas na construcao;
-- `audit_questions_vs_sources.csv`: trilha de auditoria ligando trechos de contexto as fontes;
-- `ragas_evaluation.csv`: avaliacao automatizada por item com metricas de contexto e resposta;
-- `scripts_geracao/`: pipeline reproduzivel para gerar, validar, corrigir e exportar o dataset.
+- `dataset_full.csv`: dataset final em CSV, com 150 itens;
+- `sources.csv`: catálogo de 20 fontes em português usadas na construção;
+- `audit_questions_vs_sources.csv`: trilha de auditoria ligando trechos de contexto às fontes;
+- `ragas_evaluation.csv`: avaliação automatizada por item com métricas de contexto e resposta;
+- `scripts_geracao/`: pipeline reproduzível para gerar, validar, corrigir e exportar o dataset.
 
 ## Objetivo
 
-O projeto foi desenhado para avaliar sistemas de QA em Geociencias em cenarios nos quais a resposta exige combinar evidencias, por exemplo:
+O projeto foi desenhado para avaliar sistemas de QA em Geociências em cenários nos quais a resposta exige combinar evidências, por exemplo:
 
-- bacia sedimentar -> unidade estratigrafica -> litologia;
-- rocha geradora -> migracao -> reservatorio -> selo;
-- facies -> ambiente deposicional -> propriedade petrofisica;
-- estrutura/falha -> compartimentacao -> fluido ou regime de pressao;
-- idade relativa -> posicao estratigrafica -> evolucao geologica.
+- bacia sedimentar -> unidade estratigráfica -> litologia;
+- rocha geradora -> migração -> reservatório -> selo;
+- fácies -> ambiente deposicional -> propriedade petrofísica;
+- estrutura/falha -> compartimentação -> fluido ou regime de pressão;
+- idade relativa -> posição estratigráfica -> evolução geológica.
 
-Em outras palavras, o dataset serve melhor para testar recuperacao contextual, fidelidade a fonte e capacidade de inferencia geocientifica do que para perguntas puramente factuais de uma unica sentenca.
+Em outras palavras, o dataset serve melhor para testar recuperação contextual, fidelidade à fonte e capacidade de inferência geocientífica do que para perguntas puramente factuais de uma única sentença.
 
 ## Artefatos principais
 
-### `dataset_full.json` e `dataset_full.csv` 
+### `dataset_full.json` e `dataset_full.csv`
 
-Arquivo principal do projeto. Cada item contem:
+Arquivo principal do projeto. Cada item contém:
 
 ```json
 {
   "id": 1,
-  "question": "Pergunta em portugues.",
+  "question": "Pergunta em português.",
   "context": [
     [
-      "Titulo da fonte",
+      "Título da fonte",
       [
         "Trecho literal da fonte.",
         "Outro trecho literal da mesma fonte."
@@ -52,18 +52,18 @@ Arquivo principal do projeto. Cada item contem:
 
 Campos:
 
-| Campo | Descricao |
+| Campo | Descrição |
 |---|---|
-| `id` | Identificador numerico do item. |
-| `question` | Pergunta em portugues, com uma unica intencao e uma unica interrogacao. |
-| `context` | Lista de blocos multicontexto. Cada bloco contem o titulo da fonte e uma lista de trechos literais. |
-| `expected_answer` | Resposta esperada, fiel ao contexto, mas nao necessariamente uma copia literal. |
-| `tipo_inferencia` | Rotulo analitico do tipo principal de inferencia exigida. |
+| `id` | Identificador numérico do item. |
+| `question` | Pergunta em português, com uma única intenção e uma única interrogação. |
+| `context` | Lista de blocos multicontexto. Cada bloco contém o título da fonte e uma lista de trechos literais. |
+| `expected_answer` | Resposta esperada, fiel ao contexto, mas não necessariamente uma cópia literal. |
+| `tipo_inferencia` | Rótulo analítico do tipo principal de inferência exigida. |
 | `source` | Lista de URLs alinhada aos blocos de contexto. |
 
 ### `sources.csv`
 
-Catalogo das fontes usadas na construcao do dataset, com colunas:
+Catálogo das fontes usadas na construção do dataset, com colunas:
 
 ```csv
 id,fonte,link
@@ -71,11 +71,11 @@ id,fonte,link
 
 ### `audit_questions_vs_sources.csv`
 
-Arquivo de rastreabilidade para auditoria. Ele liga questoes e trechos de contexto as respectivas fontes, permitindo revisar de onde cada evidencia textual foi extraida.
+Arquivo de rastreabilidade para auditoria. Ele liga questões e trechos de contexto às respectivas fontes, permitindo revisar de onde cada evidência textual foi extraída.
 
 ### `ragas_evaluation.csv`
 
-Arquivo com uma rodada de avaliacao automatizada por item. Hoje ele registra, entre outras, as metricas:
+Arquivo com uma rodada de avaliação automatizada por item. Hoje ele registra, entre outras, as métricas:
 
 - `context_precision_score`
 - `contextual_relevancy_score`
@@ -83,27 +83,27 @@ Arquivo com uma rodada de avaliacao automatizada por item. Hoje ele registra, en
 - `faithfulness_score`
 - `answer_relevance_score`
 
-## Como o dataset foi construido
+## Como o dataset foi construído
 
-O fluxo do projeto, como implementado em `scripts_geracao/scripts/`, e o seguinte:
+O fluxo do projeto, como implementado em `scripts_geracao/scripts/`, é o seguinte:
 
 1. `01_fetch_sources.py`  
    Baixa cada URL de `sources.csv` e tenta extrair texto bruto de HTML ou PDF.
 
 2. `02_extract_candidate_passages.py`  
-   Divide os textos em paragrafos e seleciona passagens candidatas usando heuristicas e palavras-chave geocientificas.
+   Divide os textos em parágrafos e seleciona passagens candidatas usando heurísticas e palavras-chave geocientíficas.
 
 3. `03_build_generation_prompts.py`  
-   Agrupa evidencias em pequenos conjuntos multicontexto e monta prompts para geracao de itens por LLM.
+   Agrupa evidências em pequenos conjuntos multicontexto e monta prompts para geração de itens por LLM.
 
 4. `04_generate_with_llm.py`  
-   Envia os prompts para um endpoint compativel com Chat Completions e salva a resposta bruta.
+   Envia os prompts para um endpoint compatível com Chat Completions e salva a resposta bruta.
 
 5. `05_merge_and_validate_dataset.py`  
-   Consolida os itens gerados, renumera IDs, valida schema, formato de `context`, termos proibidos e aderencia literal ao banco de evidencias.
+   Consolida os itens gerados, renumera IDs, valida schema, formato de `context`, termos proibidos e aderência literal ao banco de evidências.
 
 6. `06_apply_item_corrections.py`  
-   Aplica correcoes manuais por ID quando a geracao automatica precisa de ajuste editorial.
+   Aplica correções manuais por ID quando a geração automática precisa de ajuste editorial.
 
 7. `07_export_csv.py`  
    Exporta o dataset final para CSV com `id`, `question`, `context` e `expected_answer`.
@@ -111,23 +111,23 @@ O fluxo do projeto, como implementado em `scripts_geracao/scripts/`, e o seguint
 8. `08_build_source_audit.py`  
    Gera uma tabela de auditoria item-contexto-fonte para rastreabilidade.
 
-## Premissas metodologicas
+## Premissas metodológicas
 
 O projeto segue algumas regras centrais:
 
-- usar somente fontes em portugues;
+- usar somente fontes em português;
 - manter os trechos do `context` de forma literal, sem parafrasear;
-- evitar perguntas metalinguisticas sobre RAG, GraphRAG, ontologias ou o proprio dataset;
-- exigir uma unica intencao por pergunta;
+- evitar perguntas metalinguísticas sobre RAG, GraphRAG, ontologias ou o próprio dataset;
+- exigir uma única intenção por pergunta;
 - produzir respostas esperadas sustentadas pelo contexto, mesmo quando inferenciais;
-- manter `tipo_inferencia` como rotulo de analise, nao como dica explicita dentro da pergunta ou da resposta;
-- revisar manualmente os itens apos a geracao automatica.
+- manter `tipo_inferencia` como rótulo de análise, não como dica explícita dentro da pergunta ou da resposta;
+- revisar manualmente os itens após a geração automática.
 
-A taxonomia usada na construcao dos prompts esta em `scripts_geracao/config/relation_types.json`. Como o dataset foi refinado iterativamente, a versao final pode conter rotulos adicionais ou consolidados em relacao a essa taxonomia-base.
+A taxonomia usada na construção dos prompts está em `scripts_geracao/config/relation_types.json`. Como o dataset foi refinado iterativamente, a versão final pode conter rótulos adicionais ou consolidados em relação a essa taxonomia-base.
 
 ## Reproduzindo a pipeline
 
-Os artefatos intermediarios nao estao versionados na raiz. Se quiser reproduzir a geracao, um fluxo pratico a partir da raiz do projeto e:
+Os artefatos intermediários não estão versionados na raiz. Se quiser reproduzir a geração, um fluxo prático a partir da raiz do projeto é:
 
 ```bash
 python -m venv .venv
@@ -182,36 +182,36 @@ python scripts_geracao/scripts/08_build_source_audit.py \
   --out data/audit_questions_vs_sources.csv
 ```
 
-## Validacoes aplicadas na consolidacao
+## Validações aplicadas na consolidação
 
 O script `05_merge_and_validate_dataset.py` verifica, entre outros pontos:
 
-- presenca dos campos obrigatorios;
+- presença dos campos obrigatórios;
 - estrutura multicontexto de `context`;
-- existencia de exatamente uma interrogacao em `question`;
-- ausencia de termos proibidos como `rag`, `graphrag`, `ontologia` e expressoes como `relacao espacial`;
-- presenca literal dos paragrafos de contexto no banco de evidencias;
-- existencia de lista nao vazia em `source`.
+- existência de exatamente uma interrogação em `question`;
+- ausência de termos proibidos como `rag`, `graphrag`, `ontologia` e expressões como `relação espacial`;
+- presença literal dos parágrafos de contexto no banco de evidências;
+- existência de lista não vazia em `source`.
 
 ## Como usar o dataset
 
-Para avaliacao de sistemas de QA, a pratica mais consistente e:
+Para avaliação de sistemas de QA, a prática mais consistente é:
 
 1. fornecer ao modelo apenas `question` e `context`;
-2. manter `tipo_inferencia` fora da entrada do modelo e usar esse campo apenas para analise posterior;
-3. usar `expected_answer` como referencia de avaliacao, nao como contexto adicional;
-4. consultar `audit_questions_vs_sources.csv` quando for necessario auditar a origem de um trecho;
-5. usar `ragas_evaluation.csv` como apoio comparativo, nao como substituto de revisao humana.
+2. manter `tipo_inferencia` fora da entrada do modelo e usar esse campo apenas para análise posterior;
+3. usar `expected_answer` como referência de avaliação, não como contexto adicional;
+4. consultar `audit_questions_vs_sources.csv` quando for necessário auditar a origem de um trecho;
+5. usar `ragas_evaluation.csv` como apoio comparativo, não como substituto de revisão humana.
 
-## Limitacoes
+## Limitações
 
-- Extracao automatica de HTML e PDF pode falhar, especialmente em paginas dinamicas.
-- A qualidade final depende da geracao do LLM e da revisao manual posterior.
+- Extração automática de HTML e PDF pode falhar, especialmente em páginas dinâmicas.
+- A qualidade final depende da geração do LLM e da revisão manual posterior.
 - Fontes externas podem mudar, sair do ar ou alterar o texto ao longo do tempo.
-- O projeto redistribui trechos literais de fontes externas; antes de publicar ou reaproveitar o dataset, revise licencas e termos de uso.
-- Alguns arquivos auxiliares ainda refletem o nome legado `GeoInfer-PT` e exemplos antigos de caminho; use este README como referencia atual da organizacao do repositorio.
+- O projeto redistribui trechos literais de fontes externas; antes de publicar ou reaproveitar o dataset, revise licenças e termos de uso.
+- Alguns arquivos auxiliares ainda refletem o nome legado `GeoInfer-PT` e exemplos antigos de caminho; use este README como referência atual da organização do repositório.
 
-## Citacao sugerida
+## Citação sugerida
 
 ```text
 PetroQA-Brasil is a Portuguese geoscience question-answering dataset focused on source-grounded relational inference over geological and petroleum-geology texts.
