@@ -1,0 +1,44 @@
+{
+  "tipos_inferencia": [
+    {
+      "nome": "espacial_deposicional",
+      "descricao": "Inferência entre posição, bacia, compartimento, altos estruturais, baixos adjacentes, ambiente deposicional e distribuição de fácies."
+    },
+    {
+      "nome": "temporal_estratigrafica",
+      "descricao": "Inferência envolvendo idade relativa, sequência estratigráfica, unidades e eventos geológicos."
+    },
+    {
+      "nome": "composicional_petrofisica",
+      "descricao": "Inferência entre litologia, composição mineralógica, porosidade, permeabilidade e função de reservatório."
+    },
+    {
+      "nome": "selo_e_retencao",
+      "descricao": "Inferência entre rocha selante, baixa permeabilidade, sal/evaporitos, trapa e retenção de hidrocarbonetos."
+    },
+    {
+      "nome": "geracao_de_hidrocarbonetos",
+      "descricao": "Inferência entre matéria orgânica, rocha geradora, maturação e geração de óleo ou gás."
+    },
+    {
+      "nome": "processual_migracao",
+      "descricao": "Inferência sobre migração, acumulação e interrupção do deslocamento de hidrocarbonetos."
+    },
+    {
+      "nome": "estrutural_deposicional",
+      "descricao": "Inferência entre falhas, blocos altos, compartimentação, estruturas e padrões deposicionais."
+    },
+    {
+      "nome": "interpretativa",
+      "descricao": "Inferência que combina evidências de diferentes áreas para sustentar uma interpretação geológica."
+    },
+    {
+      "nome": "entidade_estratigrafica",
+      "descricao": "Inferência que associa formação, membro, unidade, campo, bacia ou litologia a uma entidade geológica nomeada."
+    },
+    {
+      "nome": "ambiente_deposicional",
+      "descricao": "Inferência entre fácies, sedimentos, energia do ambiente, lago, mar, talude, leque ou turbidito."
+    }
+  ]
+}

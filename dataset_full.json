@@ -1,0 +1,3725 @@
+[
+  {
+    "id": 1,
+    "question": "Que entidade geológica explica a retenção do petróleo abaixo dos reservatórios carbonáticos da Bacia de Santos?",
+    "context": [
+      [
+        "Quem Somos | Comunica Bacia de Santos | Petrobras",
+        [
+          "Em uma região de águas ultraprofundas, ocorre o desenvolvimento de reservatórios carbonáticos abaixo de uma camada de sal com até dois quilômetros de espessura, conhecida como pré-sal, caracterizando uma das maiores províncias de petróleo do mundo, apresentando acumulações de óleo pesado, óleo leve e gás não associado."
+        ]
+      ],
+      [
+        "Petróleo do Pré-Sal | SGB",
+        [
+          "Essa barreira, chamada de trapa, pode ser uma rocha impermeável, como uma camada de sal.",
+          "Essa espessa camada de sal, formada principalmente de halita (cloreto de sódio, ou seja, o sal que usamos na comida) e anidrita (sulfato de cálcio) é uma barreira que se formou diretamente sobre a rocha geradora, impedindo que, neste caso, o petróleo migrasse."
+        ]
+      ]
+    ],
+    "expected_answer": "A camada de sal/evaporitos é a entidade que atua como barreira ou selo, mantendo os hidrocarbonetos retidos nos reservatórios carbonáticos do pré-sal.",
+    "tipo_inferencia": "selo_e_retencao",
+    "source": [
+      "https://comunicabaciadesantos.petrobras.com.br/quem-somos",
+      "https://www.sgb.gov.br/petroleo-do-pre-sal"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Qual unidade deve ser associada ao papel de cobertura dos campos gigantes do pré-sal da Bacia de Santos?",
+    "context": [
+      [
+        "Estratigrafia e modelos deposicionais carbonáticos do Pré-sal da Bacia de Santos | Universidade Petrobras",
+        [
+          "Campos gigantes e supergigantes de alta produtividade na seção Pré-sal da Bacia de Santos são constituídos predominantemente por fácies carbonáticas lacustres e selados por espessa camada de evaporitos."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "O selo, ou rocha selante, é uma unidade com baixa permeabilidade que impede o escape de hidrocarbonetos da rocha reservatório."
+        ]
+      ]
+    ],
+    "expected_answer": "A espessa camada de evaporitos deve ser associada ao papel de cobertura/selo dos campos gigantes e supergigantes do pré-sal.",
+    "tipo_inferencia": "selo_e_retencao",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/16",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Que rochas explicam a geração do óleo e gás nas porções profundas dos lagos do pré-sal?",
+    "context": [
+      [
+        "Pré-sal: mergulhe nessa jornada ultraprofunda | Petrobras",
+        [
+          "Nas regiões mais profundas destes lagos começaram a acumular grandes quantidades de matéria orgânica de algas microscópicas.",
+          "Esta matéria orgânica, misturada a sedimentos, formou o que são as rochas que geram o óleo e o gás do pré-sal."
+        ]
+      ],
+      [
+        "Petróleo | SGB",
+        [
+          "A rocha onde o petróleo se forma é chamada de rocha geradora.",
+          "As rochas geradoras mais comuns são folhelhos negros."
+        ]
+      ]
+    ],
+    "expected_answer": "As rochas geradoras formadas por matéria orgânica de algas microscópicas misturada a sedimentos explicam a geração do óleo e gás do pré-sal.",
+    "tipo_inferencia": "geracao_de_hidrocarbonetos",
+    "source": [
+      "https://petrobras.com.br/pre-sal",
+      "https://www.sgb.gov.br/petroleo"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Que associação entre conchas calcárias e estromatólitos caracteriza o principal armazenamento de hidrocarbonetos no pré-sal?",
+    "context": [
+      [
+        "Pré-sal: mergulhe nessa jornada ultraprofunda | Petrobras",
+        [
+          "Nas partes mais rasas destes lagos, em grandes ilhas lacustres, surgiram as chamadas conchas calcárias que se acumularam cada vez mais com o passar do tempo.",
+          "Mais pra frente, essas conchas 'ganharam a companhia' de depósitos de estromatólitos, que nada mais são do que tipos de algas que formam rochas calcárias.",
+          "Tanto as conchas calcárias quanto as rochas calcárias compõem os principais reservatórios do pré-sal."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "O reservatório é uma unidade litológica porosa e permeável ou conjunto de unidade que retém as reservas de hidrocarbonetos."
+        ]
+      ]
+    ],
+    "expected_answer": "Conchas calcárias e estromatólitos compõem reservatórios carbonáticos, isto é, unidades porosas capazes de armazenar hidrocarbonetos no pré-sal.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://petrobras.com.br/pre-sal",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Por que as regiões rasas dos antigos lagos são relevantes para interpretar os reservatórios do pré-sal?",
+    "context": [
+      [
+        "Pré-sal: mergulhe nessa jornada ultraprofunda | Petrobras",
+        [
+          "Nas partes mais rasas destes lagos, em grandes ilhas lacustres, surgiram as chamadas conchas calcárias que se acumularam cada vez mais com o passar do tempo.",
+          "Mais pra frente, essas conchas 'ganharam a companhia' de depósitos de estromatólitos, que nada mais são do que tipos de algas que formam rochas calcárias.",
+          "Tanto as conchas calcárias quanto as rochas calcárias compõem os principais reservatórios do pré-sal."
+        ]
+      ],
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "A condição para o armazenamento do petróleo nas rochas reservatório é a porosidade de tais rochas, que variam de 5% a 35%, tendo em média de 15% a 30%.",
+          "Geralmente são compostas por granulometria de areia a seixo como arenitos, calcarenitos ou conglomerados."
+        ]
+      ]
+    ],
+    "expected_answer": "Porque nelas se acumularam conchas calcárias e estromatólitos, que formaram rochas calcárias associadas aos principais reservatórios do pré-sal.",
+    "tipo_inferencia": "ambiente_deposicional",
+    "source": [
+      "https://petrobras.com.br/pre-sal",
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Qual material sedimentar indica a origem lacustre dos reservatórios carbonáticos da Bacia de Santos?",
+    "context": [
+      [
+        "Estratigrafia e modelos deposicionais carbonáticos do Pré-sal da Bacia de Santos | Universidade Petrobras",
+        [
+          "Campos gigantes e supergigantes de alta produtividade na seção Pré-sal da Bacia de Santos são constituídos predominantemente por fácies carbonáticas lacustres e selados por espessa camada de evaporitos.",
+          "Depósitos bioclásticos de moluscos bivalves do Barremiano/Aptiano, denominados coquinas do andar local Jiquiá, ocorrem sobre blocos altos falhados, formados durante a tectônica rifte, em morfologias herdadas do embasamento, intercalados com fácies ricas em matéria orgânica em camadas conformantes contínuas nos baixos adjacentes, em ambiente de água doce a salobra.",
+          "As rochas carbonáticas do Aptiano, andar local Alagoas, são depósitos autóctones bioquímicos representados por laminitos e arbustos fasciculares (estromatolitos) que se depositaram em condições alcalinas, sobre altos herdados do embasamento e em contexto de subsidência térmica flexural com menor influência de falhas."
+        ]
+      ],
+      [
+        "Campo de Búzios: a jornada desde a caracterização dos reservatórios ao início do desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Os reservatórios são rochas carbonáticas de origem lacustre (idade aptiana), depositadas durante o rifteamento oblíquo de abertura da Bacia de Santos e compreende às formações Itapema (Sequência K38) e Barra Velha (Sequências K44 e K46/K48).",
+          "Nos altos estruturais, a Formação Itapema é composta majoritariamente por rudstones e grainstones de bivalves e a Formação Barra Velha, por estromatólitos, grainstones intraclásticos e esferulititos."
+        ]
+      ]
+    ],
+    "expected_answer": "As fácies carbonáticas lacustres, incluindo coquinas, laminitos e estromatólitos, indicam origem lacustre para os reservatórios do pré-sal da Bacia de Santos.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/16",
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/23"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Que evento geológico criou o cenário inicial para a formação dos lagos associados ao pré-sal?",
+    "context": [
+      [
+        "Pré-sal: mergulhe nessa jornada ultraprofunda | Petrobras",
+        [
+          "O pré-sal são rochas sedimentares que foram formadas há mais de 100 milhões de anos com a separação dos atuais continentes sul-americano e africano.",
+          "Com essa separação, surgiram grandes depressões que deram origem a diversos lagos, que mais tarde foram conectados aos oceanos."
+        ]
+      ],
+      [
+        "Quem Somos | Comunica Bacia de Santos | Petrobras",
+        [
+          "Formada há mais de 130 milhões de anos, após o início da separação de América do Sul e África, a Bacia de Santos é uma típica bacia sedimentar de margem atlântica, apresentando, porém, uma evolução geológica diferente das bacias de Campos e Pelotas, localizadas respectivamente a norte e sul."
+        ]
+      ]
+    ],
+    "expected_answer": "A separação entre América do Sul e África criou depressões que originaram lagos nos quais se formaram rochas geradoras e reservatórios carbonáticos.",
+    "tipo_inferencia": "temporal_estratigrafica",
+    "source": [
+      "https://petrobras.com.br/pre-sal",
+      "https://comunicabaciadesantos.petrobras.com.br/quem-somos"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Que componente do sistema impede que o petróleo gerado nas rochas inferiores chegue à superfície?",
+    "context": [
+      [
+        "Petróleo do Pré-Sal | SGB",
+        [
+          "Com isso, o petróleo migra para cima através dos poros existentes nas rochas, até encontrar algo que o impeça de continuar se deslocando.",
+          "Essa barreira, chamada de trapa, pode ser uma rocha impermeável, como uma camada de sal.",
+          "Essa espessa camada de sal, formada principalmente de halita (cloreto de sódio, ou seja, o sal que usamos na comida) e anidrita (sulfato de cálcio) é uma barreira que se formou diretamente sobre a rocha geradora, impedindo que, neste caso, o petróleo migrasse."
+        ]
+      ],
+      [
+        "Pré-sal: mergulhe nessa jornada ultraprofunda | Petrobras",
+        [
+          "Por causa do clima árido daquele tempo, a evaporação intensa da água marinha provocou a acumulação de sais, o que criou a camada do pré-sal, uma espécie de proteção que impedia que o petróleo 'escapasse' e chegasse à superfície."
+        ]
+      ]
+    ],
+    "expected_answer": "A camada de sal funciona como barreira/trapa, interrompendo a migração ascendente dos hidrocarbonetos.",
+    "tipo_inferencia": "processual_migracao",
+    "source": [
+      "https://www.sgb.gov.br/petroleo-do-pre-sal",
+      "https://petrobras.com.br/pre-sal"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Qual interpretação conecta clima árido, evaporação marinha e preservação de acumulações no pré-sal?",
+    "context": [
+      [
+        "Pré-sal: mergulhe nessa jornada ultraprofunda | Petrobras",
+        [
+          "Por causa do clima árido daquele tempo, a evaporação intensa da água marinha provocou a acumulação de sais, o que criou a camada do pré-sal, uma espécie de proteção que impedia que o petróleo 'escapasse' e chegasse à superfície."
+        ]
+      ],
+      [
+        "Evaporito | Wikipédia",
+        [
+          "Na visão tradicional, evaporito ou depósito salino é uma rocha sedimentar formada pela cristalização e precipitação química dos sais dissolvidos em um meio aquoso, devido a um processo de evaporação.",
+          "Seu ambiente de formação são bacias fechadas sujeitas a evaporação intensa."
+        ]
+      ]
+    ],
+    "expected_answer": "O clima árido favoreceu a evaporação da água marinha, gerando sais que formaram a camada salina responsável por reter o petróleo.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://petrobras.com.br/pre-sal",
+      "https://pt.wikipedia.org/wiki/Evaporito"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "O que justifica tratar a camada de sal do pré-sal como elemento crítico de fechamento petrolífero?",
+    "context": [
+      [
+        "Petróleo do Pré-Sal | SGB",
+        [
+          "O que se chama de pré-sal são as rochas sedimentares que existem abaixo da uma camada de sal com até 2.000 m de espessura, que se estende por uma grande extensão.",
+          "Essa espessa camada de sal, formada principalmente de halita (cloreto de sódio, ou seja, o sal que usamos na comida) e anidrita (sulfato de cálcio) é uma barreira que se formou diretamente sobre a rocha geradora, impedindo que, neste caso, o petróleo migrasse."
+        ]
+      ],
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "As rochas selantes são rochas de baixa permeabilidade, como folhelhos, siltitos e calciculitos, de forma que impedem o escape dos fluidos da rocha reservatório.",
+          "Geralmente estas rochas situam-se acima do reservatório."
+        ]
+      ]
+    ],
+    "expected_answer": "Ela forma uma barreira de baixa permeabilidade posicionada sobre as rochas inferiores, impedindo a fuga dos hidrocarbonetos.",
+    "tipo_inferencia": "selo_e_retencao",
+    "source": [
+      "https://www.sgb.gov.br/petroleo-do-pre-sal",
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Como profundidade e cobertura salina tornam o pré-sal um alvo tecnicamente complexo?",
+    "context": [
+      [
+        "Pré-sal Bacia de Santos | Comunica Bacia de Santos | Petrobras",
+        [
+          "Tais formações encontram-se a distâncias de cerca de 300 quilômetros da costa brasileira, em profundidades de aproximadamente 5 mil metros, sendo 2 mil de lâmina d’água, mil metros de sedimentos e outros 2 mil de sal."
+        ]
+      ],
+      [
+        "Quem Somos | Comunica Bacia de Santos | Petrobras",
+        [
+          "Em uma região de águas ultraprofundas, ocorre o desenvolvimento de reservatórios carbonáticos abaixo de uma camada de sal com até dois quilômetros de espessura, conhecida como pré-sal, caracterizando uma das maiores províncias de petróleo do mundo, apresentando acumulações de óleo pesado, óleo leve e gás não associado."
+        ]
+      ]
+    ],
+    "expected_answer": "As formações estão a grandes profundidades e abaixo de até cerca de 2 mil metros de sal, exigindo interpretação integrada da coluna sedimentar e da cobertura evaporítica.",
+    "tipo_inferencia": "espacial",
+    "source": [
+      "https://comunicabaciadesantos.petrobras.com.br/pre-sal-bacia-de-santos",
+      "https://comunicabaciadesantos.petrobras.com.br/quem-somos"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Que unidade estratigráfica deve ser vista como mais antiga quando comparada às rochas acima do sal?",
+    "context": [
+      [
+        "Petróleo do Pré-Sal | SGB",
+        [
+          "O que se chama de pré-sal são as rochas sedimentares que existem abaixo da uma camada de sal com até 2.000 m de espessura, que se estende por uma grande extensão.",
+          "O prefixo pré-, portanto, refere-se ao tempo, não ao espaço."
+        ]
+      ],
+      [
+        "Como Sabemos a Idade das Rochas? | SGB",
+        [
+          "Esse material vai sendo empilhado e, naturalmente, quanto mais embaixo ele estiver na pilha mais antigo ele é."
+        ]
+      ]
+    ],
+    "expected_answer": "As rochas do pré-sal são mais antigas que as rochas acima do sal, pois o prefixo pré- se refere à idade relativa de formação.",
+    "tipo_inferencia": "temporal_estratigrafica",
+    "source": [
+      "https://www.sgb.gov.br/petroleo-do-pre-sal",
+      "https://www.sgb.gov.br/como-sabemos-a-idade-das-rochas"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Qual entidade conecta a formação de grandes depressões lacustres à geração de óleo e gás?",
+    "context": [
+      [
+        "Pré-sal: mergulhe nessa jornada ultraprofunda | Petrobras",
+        [
+          "Com essa separação, surgiram grandes depressões que deram origem a diversos lagos, que mais tarde foram conectados aos oceanos.",
+          "Nas regiões mais profundas destes lagos começaram a acumular grandes quantidades de matéria orgânica de algas microscópicas.",
+          "Esta matéria orgânica, misturada a sedimentos, formou o que são as rochas que geram o óleo e o gás do pré-sal."
+        ]
+      ],
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "O ambiente de deposição consiste principalmente de lagos, deltas e bacias oceânicas.",
+          "O tipo de petróleo gerado depende do tipo de matéria orgânica: vegetais terrestres carreados tendem a gerar gás, enquanto que os plânctons tendem a gerar óleo."
+        ]
+      ]
+    ],
+    "expected_answer": "A matéria orgânica acumulada em regiões profundas dos lagos, misturada a sedimentos, conecta a história lacustre à geração de óleo e gás.",
+    "tipo_inferencia": "geracao_de_hidrocarbonetos",
+    "source": [
+      "https://petrobras.com.br/pre-sal",
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Por que os evaporitos são compatíveis com a interpretação de uma cobertura salina no pré-sal?",
+    "context": [
+      [
+        "Evaporito | Wikipédia",
+        [
+          "Na visão tradicional, evaporito ou depósito salino é uma rocha sedimentar formada pela cristalização e precipitação química dos sais dissolvidos em um meio aquoso, devido a um processo de evaporação.",
+          "Evaporitos são considerados rochas sedimentares químicas."
+        ]
+      ],
+      [
+        "Estratigrafia e modelos deposicionais carbonáticos do Pré-sal da Bacia de Santos | Universidade Petrobras",
+        [
+          "Campos gigantes e supergigantes de alta produtividade na seção Pré-sal da Bacia de Santos são constituídos predominantemente por fácies carbonáticas lacustres e selados por espessa camada de evaporitos."
+        ]
+      ]
+    ],
+    "expected_answer": "Porque evaporitos são rochas sedimentares químicas geradas por evaporação de sais e podem formar camadas salinas que atuam como cobertura.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Evaporito",
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/16"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Qual papel dos altos herdados do embasamento na distribuição dos carbonatos do Aptiano?",
+    "context": [
+      [
+        "Estratigrafia e modelos deposicionais carbonáticos do Pré-sal da Bacia de Santos | Universidade Petrobras",
+        [
+          "As rochas carbonáticas do Aptiano, andar local Alagoas, são depósitos autóctones bioquímicos representados por laminitos e arbustos fasciculares (estromatolitos) que se depositaram em condições alcalinas, sobre altos herdados do embasamento e em contexto de subsidência térmica flexural com menor influência de falhas."
+        ]
+      ],
+      [
+        "Campo de Búzios: a jornada desde a caracterização dos reservatórios ao início do desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Nos altos estruturais, a Formação Itapema é composta majoritariamente por rudstones e grainstones de bivalves e a Formação Barra Velha, por estromatólitos, grainstones intraclásticos e esferulititos."
+        ]
+      ]
+    ],
+    "expected_answer": "Os altos herdados do embasamento funcionaram como áreas favoráveis à deposição de carbonatos bioquímicos aptianos, como laminitos e estromatólitos.",
+    "tipo_inferencia": "espacial_deposicional",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/16",
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/23"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Qual feição deposicional associa coquinas do Jiquiá à tectônica rifte?",
+    "context": [
+      [
+        "Estratigrafia e modelos deposicionais carbonáticos do Pré-sal da Bacia de Santos | Universidade Petrobras",
+        [
+          "Depósitos bioclásticos de moluscos bivalves do Barremiano/Aptiano, denominados coquinas do andar local Jiquiá, ocorrem sobre blocos altos falhados, formados durante a tectônica rifte, em morfologias herdadas do embasamento, intercalados com fácies ricas em matéria orgânica em camadas conformantes contínuas nos baixos adjacentes, em ambiente de água doce a salobra."
+        ]
+      ],
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "Uma armadilha estrutural consiste de configurações geométricas de estruturas de rochas que acumulam o petróleo, não permitindo sua fuga.",
+          "Podem ser domos salinos, flancos de homoclinais ou ainda, diversos tipos de superposição de dobras e falhas."
+        ]
+      ]
+    ],
+    "expected_answer": "As coquinas do Jiquiá ocorrem sobre blocos altos falhados formados durante a tectônica rifte, relacionando sua distribuição a altos estruturais herdados.",
+    "tipo_inferencia": "estrutural_deposicional",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/16",
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Como a matéria orgânica nas regiões profundas dos lagos se diferencia das conchas calcárias das partes rasas?",
+    "context": [
+      [
+        "Pré-sal: mergulhe nessa jornada ultraprofunda | Petrobras",
+        [
+          "Nas regiões mais profundas destes lagos começaram a acumular grandes quantidades de matéria orgânica de algas microscópicas.",
+          "Esta matéria orgânica, misturada a sedimentos, formou o que são as rochas que geram o óleo e o gás do pré-sal.",
+          "Nas partes mais rasas destes lagos, em grandes ilhas lacustres, surgiram as chamadas conchas calcárias que se acumularam cada vez mais com o passar do tempo.",
+          "Tanto as conchas calcárias quanto as rochas calcárias compõem os principais reservatórios do pré-sal."
+        ]
+      ],
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "Para que estas acumulações ocorram, necessita-se de rochas geradoras maduras, rocha reservatório, rocha selante e a sobrecarga.",
+          "Além da presença destas rochas, dois processos geológicos são fundamentais: a formação de trapas e a geração, migração e acumulação de hidrocarbonetos."
+        ]
+      ]
+    ],
+    "expected_answer": "A primeira está ligada à geração dos hidrocarbonetos, enquanto as conchas calcárias das partes rasas estão ligadas à formação dos reservatórios.",
+    "tipo_inferencia": "diferenciacao_funcional",
+    "source": [
+      "https://petrobras.com.br/pre-sal",
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Que entidade deve receber a função de reservatório nos carbonatos lacustres do pré-sal?",
+    "context": [
+      [
+        "Pré-sal: mergulhe nessa jornada ultraprofunda | Petrobras",
+        [
+          "Tanto as conchas calcárias quanto as rochas calcárias compõem os principais reservatórios do pré-sal."
+        ]
+      ],
+      [
+        "Campo de Búzios: a jornada desde a caracterização dos reservatórios ao início do desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Os reservatórios são rochas carbonáticas de origem lacustre (idade aptiana), depositadas durante o rifteamento oblíquo de abertura da Bacia de Santos e compreende às formações Itapema (Sequência K38) e Barra Velha (Sequências K44 e K46/K48).",
+          "Nos altos estruturais, a Formação Itapema é composta majoritariamente por rudstones e grainstones de bivalves e a Formação Barra Velha, por estromatólitos, grainstones intraclásticos e esferulititos."
+        ]
+      ]
+    ],
+    "expected_answer": "As rochas carbonáticas lacustres, incluindo conchas calcárias, estromatólitos e formações como Itapema e Barra Velha, devem ser modeladas como reservatórios.",
+    "tipo_inferencia": "ontologica_entidade_funcao",
+    "source": [
+      "https://petrobras.com.br/pre-sal",
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/23"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Qual conclusão pode ser obtida ao combinar a presença de evaporitos com fácies carbonáticas lacustres na seção pré-sal?",
+    "context": [
+      [
+        "Estratigrafia e modelos deposicionais carbonáticos do Pré-sal da Bacia de Santos | Universidade Petrobras",
+        [
+          "Campos gigantes e supergigantes de alta produtividade na seção Pré-sal da Bacia de Santos são constituídos predominantemente por fácies carbonáticas lacustres e selados por espessa camada de evaporitos."
+        ]
+      ],
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "Sistema petrolífero é um modelo que engloba todos os elementos e processos geológicos necessários à existência de acumulações de óleo e gás.",
+          "Para que estas acumulações ocorram, necessita-se de rochas geradoras maduras, rocha reservatório, rocha selante e a sobrecarga.",
+          "Além da presença destas rochas, dois processos geológicos são fundamentais: a formação de trapas e a geração, migração e acumulação de hidrocarbonetos."
+        ]
+      ]
+    ],
+    "expected_answer": "A seção pré-sal reúne reservatórios carbonáticos lacustres e cobertura evaporítica, formando uma arquitetura favorável à acumulação e retenção de hidrocarbonetos.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/16",
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Que componente explica por que o óleo do pré-sal não migrou livremente para unidades superiores?",
+    "context": [
+      [
+        "Petróleo do Pré-Sal | SGB",
+        [
+          "Com isso, o petróleo migra para cima através dos poros existentes nas rochas, até encontrar algo que o impeça de continuar se deslocando.",
+          "Essa espessa camada de sal, formada principalmente de halita (cloreto de sódio, ou seja, o sal que usamos na comida) e anidrita (sulfato de cálcio) é uma barreira que se formou diretamente sobre a rocha geradora, impedindo que, neste caso, o petróleo migrasse."
+        ]
+      ],
+      [
+        "Pré-sal: mergulhe nessa jornada ultraprofunda | Petrobras",
+        [
+          "Por causa do clima árido daquele tempo, a evaporação intensa da água marinha provocou a acumulação de sais, o que criou a camada do pré-sal, uma espécie de proteção que impedia que o petróleo 'escapasse' e chegasse à superfície."
+        ]
+      ]
+    ],
+    "expected_answer": "A espessa camada de sal/evaporitos agiu como barreira sobre as rochas inferiores, interrompendo a migração ascendente do petróleo.",
+    "tipo_inferencia": "processual_migracao",
+    "source": [
+      "https://www.sgb.gov.br/petroleo-do-pre-sal",
+      "https://petrobras.com.br/pre-sal"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Qual interpretação liga fácies ricas em matéria orgânica nos baixos adjacentes às coquinas sobre blocos altos?",
+    "context": [
+      [
+        "Estratigrafia e modelos deposicionais carbonáticos do Pré-sal da Bacia de Santos | Universidade Petrobras",
+        [
+          "Depósitos bioclásticos de moluscos bivalves do Barremiano/Aptiano, denominados coquinas do andar local Jiquiá, ocorrem sobre blocos altos falhados, formados durante a tectônica rifte, em morfologias herdadas do embasamento, intercalados com fácies ricas em matéria orgânica em camadas conformantes contínuas nos baixos adjacentes, em ambiente de água doce a salobra."
+        ]
+      ],
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "Para que estas acumulações ocorram, necessita-se de rochas geradoras maduras, rocha reservatório, rocha selante e a sobrecarga.",
+          "Além da presença destas rochas, dois processos geológicos são fundamentais: a formação de trapas e a geração, migração e acumulação de hidrocarbonetos."
+        ]
+      ]
+    ],
+    "expected_answer": "Ela indica compartimentação deposicional: matéria orgânica em baixos adjacentes associada à geração e coquinas em altos falhados associadas ao armazenamento carbonático.",
+    "tipo_inferencia": "estrutural_deposicional",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/16",
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero"
+    ]
+  },
+  {
+    "id": 22,
+    "question": "Que tipo de unidade litológica é indicado pelas conchas calcárias do pré-sal?",
+    "context": [
+      [
+        "Pré-sal: mergulhe nessa jornada ultraprofunda | Petrobras",
+        [
+          "Nas partes mais rasas destes lagos, em grandes ilhas lacustres, surgiram as chamadas conchas calcárias que se acumularam cada vez mais com o passar do tempo.",
+          "Tanto as conchas calcárias quanto as rochas calcárias compõem os principais reservatórios do pré-sal."
+        ]
+      ],
+      [
+        "Rochas | SGB",
+        [
+          "De um modo geral e amplo, as rochas sedimentares mais comuns podem ser divididas em arenosas (detríticas), argilosas (detríticas) e carbonatadas (não detríticas), estas últimas subdivididas em calcários e dolomitos."
+        ]
+      ]
+    ],
+    "expected_answer": "Elas indicam reservatórios carbonáticos, pois conchas calcárias e rochas calcárias compõem os principais reservatórios do pré-sal.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://petrobras.com.br/pre-sal",
+      "https://www.sgb.gov.br/rochas"
+    ]
+  },
+  {
+    "id": 23,
+    "question": "Por que a Bacia de Santos pode ser relacionada a reservatórios carbonáticos em águas ultraprofundas?",
+    "context": [
+      [
+        "Quem Somos | Comunica Bacia de Santos | Petrobras",
+        [
+          "Em uma região de águas ultraprofundas, ocorre o desenvolvimento de reservatórios carbonáticos abaixo de uma camada de sal com até dois quilômetros de espessura, conhecida como pré-sal, caracterizando uma das maiores províncias de petróleo do mundo, apresentando acumulações de óleo pesado, óleo leve e gás não associado."
+        ]
+      ],
+      [
+        "Pré-sal Bacia de Santos | Comunica Bacia de Santos | Petrobras",
+        [
+          "Tais formações encontram-se a distâncias de cerca de 300 quilômetros da costa brasileira, em profundidades de aproximadamente 5 mil metros, sendo 2 mil de lâmina d’água, mil metros de sedimentos e outros 2 mil de sal."
+        ]
+      ]
+    ],
+    "expected_answer": "Porque a bacia contém reservatórios carbonáticos desenvolvidos abaixo de espessa camada de sal em uma região de águas ultraprofundas.",
+    "tipo_inferencia": "espacial",
+    "source": [
+      "https://comunicabaciadesantos.petrobras.com.br/quem-somos",
+      "https://comunicabaciadesantos.petrobras.com.br/pre-sal-bacia-de-santos"
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Como os evaporitos ajudam a preservar óleo de boa qualidade no pré-sal da Bacia de Santos?",
+    "context": [
+      [
+        "Pré-sal Bacia de Santos | Comunica Bacia de Santos | Petrobras",
+        [
+          "Tal conjunto de rochas, com potencial para a formação de petróleo, está localizado sob uma extensa camada de sal que atinge espessuras de até 2 mil metros, formando uma espécie de selo e garantindo, assim, a geração de óleo de ótima qualidade."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "O selo, ou rocha selante, é uma unidade com baixa permeabilidade que impede o escape de hidrocarbonetos da rocha reservatório.",
+          "A 'trapa é a característica estratigráfica ou estrutural, que garante a justaposição do reservatório e selo de tal forma que os hidrocarbonetos permanecem presos no subsolo, em vez de fugir (devido à sua natural flutuabilidade) e se perderem."
+        ]
+      ]
+    ],
+    "expected_answer": "Os evaporitos/sal atuam como selo, preservando acumulações abaixo da cobertura e favorecendo a retenção do óleo gerado no sistema.",
+    "tipo_inferencia": "selo_e_retencao",
+    "source": [
+      "https://comunicabaciadesantos.petrobras.com.br/pre-sal-bacia-de-santos",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 25,
+    "question": "Que processo explica a origem da camada salina que recobre os reservatórios do pré-sal?",
+    "context": [
+      [
+        "Pré-sal: mergulhe nessa jornada ultraprofunda | Petrobras",
+        [
+          "Por causa do clima árido daquele tempo, a evaporação intensa da água marinha provocou a acumulação de sais, o que criou a camada do pré-sal, uma espécie de proteção que impedia que o petróleo 'escapasse' e chegasse à superfície."
+        ]
+      ],
+      [
+        "Evaporito | Wikipédia",
+        [
+          "Na visão tradicional, evaporito ou depósito salino é uma rocha sedimentar formada pela cristalização e precipitação química dos sais dissolvidos em um meio aquoso, devido a um processo de evaporação.",
+          "Seu ambiente de formação são bacias fechadas sujeitas a evaporação intensa."
+        ]
+      ]
+    ],
+    "expected_answer": "A evaporação intensa da água marinha em clima árido gerou sais que se acumularam e formaram a camada salina.",
+    "tipo_inferencia": "processual_deposicional",
+    "source": [
+      "https://petrobras.com.br/pre-sal",
+      "https://pt.wikipedia.org/wiki/Evaporito"
+    ]
+  },
+  {
+    "id": 26,
+    "question": "Qual papel das fácies carbonáticas lacustres em campos gigantes da Bacia de Santos?",
+    "context": [
+      [
+        "Estratigrafia e modelos deposicionais carbonáticos do Pré-sal da Bacia de Santos | Universidade Petrobras",
+        [
+          "Campos gigantes e supergigantes de alta produtividade na seção Pré-sal da Bacia de Santos são constituídos predominantemente por fácies carbonáticas lacustres e selados por espessa camada de evaporitos."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "O reservatório é uma unidade litológica porosa e permeável ou conjunto de unidade que retém as reservas de hidrocarbonetos."
+        ]
+      ]
+    ],
+    "expected_answer": "Elas constituem predominantemente os reservatórios de alta produtividade da seção pré-sal da Bacia de Santos.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/16",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 27,
+    "question": "Que entidade conecta os depósitos de estromatólitos à Formação Barra Velha em Búzios?",
+    "context": [
+      [
+        "Campo de Búzios: a jornada desde a caracterização dos reservatórios ao início do desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Os reservatórios são rochas carbonáticas de origem lacustre (idade aptiana), depositadas durante o rifteamento oblíquo de abertura da Bacia de Santos e compreende às formações Itapema (Sequência K38) e Barra Velha (Sequências K44 e K46/K48).",
+          "Nos altos estruturais, a Formação Itapema é composta majoritariamente por rudstones e grainstones de bivalves e a Formação Barra Velha, por estromatólitos, grainstones intraclásticos e esferulititos."
+        ]
+      ],
+      [
+        "Pré-sal: mergulhe nessa jornada ultraprofunda | Petrobras",
+        [
+          "Mais pra frente, essas conchas 'ganharam a companhia' de depósitos de estromatólitos, que nada mais são do que tipos de algas que formam rochas calcárias.",
+          "Tanto as conchas calcárias quanto as rochas calcárias compõem os principais reservatórios do pré-sal."
+        ]
+      ]
+    ],
+    "expected_answer": "A Formação Barra Velha é associada a estromatólitos e outros componentes carbonáticos, integrando os reservatórios lacustres aptianos do campo de Búzios.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/23",
+      "https://petrobras.com.br/pre-sal"
+    ]
+  },
+  {
+    "id": 28,
+    "question": "Qual conclusão sobre o pré-sal resulta da combinação entre rochas geradoras profundas e reservatórios rasos lacustres?",
+    "context": [
+      [
+        "Pré-sal: mergulhe nessa jornada ultraprofunda | Petrobras",
+        [
+          "Nas regiões mais profundas destes lagos começaram a acumular grandes quantidades de matéria orgânica de algas microscópicas.",
+          "Esta matéria orgânica, misturada a sedimentos, formou o que são as rochas que geram o óleo e o gás do pré-sal.",
+          "Nas partes mais rasas destes lagos, em grandes ilhas lacustres, surgiram as chamadas conchas calcárias que se acumularam cada vez mais com o passar do tempo.",
+          "Tanto as conchas calcárias quanto as rochas calcárias compõem os principais reservatórios do pré-sal."
+        ]
+      ],
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "Sistema petrolífero é um modelo que engloba todos os elementos e processos geológicos necessários à existência de acumulações de óleo e gás.",
+          "Para que estas acumulações ocorram, necessita-se de rochas geradoras maduras, rocha reservatório, rocha selante e a sobrecarga."
+        ]
+      ]
+    ],
+    "expected_answer": "O sistema organiza geração e armazenamento em posições deposicionais distintas: matéria orgânica em regiões profundas gera hidrocarbonetos, enquanto carbonatos rasos formam reservatórios.",
+    "tipo_inferencia": "ambiente_deposicional",
+    "source": [
+      "https://petrobras.com.br/pre-sal",
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero"
+    ]
+  },
+  {
+    "id": 29,
+    "question": "Que papel desempenha a halita na arquitetura do pré-sal descrita pelo SGB?",
+    "context": [
+      [
+        "Petróleo do Pré-Sal | SGB",
+        [
+          "Essa espessa camada de sal, formada principalmente de halita (cloreto de sódio, ou seja, o sal que usamos na comida) e anidrita (sulfato de cálcio) é uma barreira que se formou diretamente sobre a rocha geradora, impedindo que, neste caso, o petróleo migrasse."
+        ]
+      ],
+      [
+        "Evaporito | Wikipédia",
+        [
+          "Seu precipitado gera depósitos de cloretos, sulfatos, boratos e carbonatos."
+        ]
+      ]
+    ],
+    "expected_answer": "A halita compõe a espessa camada de sal que funciona como barreira, impedindo a migração do petróleo.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://www.sgb.gov.br/petroleo-do-pre-sal",
+      "https://pt.wikipedia.org/wiki/Evaporito"
+    ]
+  },
+  {
+    "id": 30,
+    "question": "Qual entidade deve ser associada ao fechamento de acumulações quando se combinam sal, baixa permeabilidade e reservatório?",
+    "context": [
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "As rochas selantes são rochas de baixa permeabilidade, como folhelhos, siltitos e calciculitos, de forma que impedem o escape dos fluidos da rocha reservatório.",
+          "Geralmente estas rochas situam-se acima do reservatório."
+        ]
+      ],
+      [
+        "Petróleo | SGB",
+        [
+          "Folhelhos e camadas de sal são rochas capeadoras comuns."
+        ]
+      ]
+    ],
+    "expected_answer": "A rocha selante, no caso representada pela camada de sal/evaporitos, deve ser associada ao fechamento das acumulações.",
+    "tipo_inferencia": "ontologica_entidade_funcao",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero",
+      "https://www.sgb.gov.br/petroleo"
+    ]
+  },
+  {
+    "id": 31,
+    "question": "Como os carbonatos lacustres do Aptiano se relacionam aos altos do embasamento?",
+    "context": [
+      [
+        "Estratigrafia e modelos deposicionais carbonáticos do Pré-sal da Bacia de Santos | Universidade Petrobras",
+        [
+          "As rochas carbonáticas do Aptiano, andar local Alagoas, são depósitos autóctones bioquímicos representados por laminitos e arbustos fasciculares (estromatolitos) que se depositaram em condições alcalinas, sobre altos herdados do embasamento e em contexto de subsidência térmica flexural com menor influência de falhas."
+        ]
+      ],
+      [
+        "Campo de Búzios: a jornada desde a caracterização dos reservatórios ao início do desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Nos altos estruturais, a Formação Itapema é composta majoritariamente por rudstones e grainstones de bivalves e a Formação Barra Velha, por estromatólitos, grainstones intraclásticos e esferulititos."
+        ]
+      ]
+    ],
+    "expected_answer": "Eles se depositaram sobre altos herdados do embasamento, indicando controle da paleotopografia na distribuição dos reservatórios carbonáticos.",
+    "tipo_inferencia": "espacial_deposicional",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/16",
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/23"
+    ]
+  },
+  {
+    "id": 32,
+    "question": "Por que o pré-sal deve ser interpretado como unidade mais profunda e mais antiga que o pós-sal?",
+    "context": [
+      [
+        "Petróleo do Pré-Sal | SGB",
+        [
+          "O que se chama de pré-sal são as rochas sedimentares que existem abaixo da uma camada de sal com até 2.000 m de espessura, que se estende por uma grande extensão.",
+          "O prefixo pré-, portanto, refere-se ao tempo, não ao espaço."
+        ]
+      ],
+      [
+        "Pré-sal Bacia de Santos | Comunica Bacia de Santos | Petrobras",
+        [
+          "Tais formações encontram-se a distâncias de cerca de 300 quilômetros da costa brasileira, em profundidades de aproximadamente 5 mil metros, sendo 2 mil de lâmina d’água, mil metros de sedimentos e outros 2 mil de sal."
+        ]
+      ]
+    ],
+    "expected_answer": "Porque está abaixo da camada de sal e corresponde a rochas formadas antes das unidades superiores; nesse caso, pré- indica tempo geológico.",
+    "tipo_inferencia": "temporal_estratigrafica",
+    "source": [
+      "https://www.sgb.gov.br/petroleo-do-pre-sal",
+      "https://comunicabaciadesantos.petrobras.com.br/pre-sal-bacia-de-santos"
+    ]
+  },
+  {
+    "id": 33,
+    "question": "Que elemento do sistema petrolífero está implícito na expressão 'proteção que impedia que o petróleo escapasse'?",
+    "context": [
+      [
+        "Pré-sal: mergulhe nessa jornada ultraprofunda | Petrobras",
+        [
+          "Por causa do clima árido daquele tempo, a evaporação intensa da água marinha provocou a acumulação de sais, o que criou a camada do pré-sal, uma espécie de proteção que impedia que o petróleo 'escapasse' e chegasse à superfície."
+        ]
+      ],
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "As rochas selantes são rochas de baixa permeabilidade, como folhelhos, siltitos e calciculitos, de forma que impedem o escape dos fluidos da rocha reservatório."
+        ]
+      ]
+    ],
+    "expected_answer": "Está implícito o elemento selo ou rocha selante, representado pela camada salina que impede o escape do petróleo.",
+    "tipo_inferencia": "ontologica_entidade_funcao",
+    "source": [
+      "https://petrobras.com.br/pre-sal",
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero"
+    ]
+  },
+  {
+    "id": 34,
+    "question": "Qual associação geológica torna a Bacia de Santos uma província petrolífera expressiva?",
+    "context": [
+      [
+        "Quem Somos | Comunica Bacia de Santos | Petrobras",
+        [
+          "Em uma região de águas ultraprofundas, ocorre o desenvolvimento de reservatórios carbonáticos abaixo de uma camada de sal com até dois quilômetros de espessura, conhecida como pré-sal, caracterizando uma das maiores províncias de petróleo do mundo, apresentando acumulações de óleo pesado, óleo leve e gás não associado."
+        ]
+      ],
+      [
+        "Pré-sal Bacia de Santos | Comunica Bacia de Santos | Petrobras",
+        [
+          "O pré-sal da Bacia de Santos, que se estende por uma área de 149 mil quilômetros quadrados, possui algumas das maiores reservas de petróleo do país."
+        ]
+      ]
+    ],
+    "expected_answer": "A associação entre reservatórios carbonáticos, cobertura salina espessa e acumulações de óleo e gás torna a Bacia de Santos uma província petrolífera expressiva.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://comunicabaciadesantos.petrobras.com.br/quem-somos",
+      "https://comunicabaciadesantos.petrobras.com.br/pre-sal-bacia-de-santos"
+    ]
+  },
+  {
+    "id": 35,
+    "question": "Que processo liga a separação continental à formação de rochas geradoras no pré-sal?",
+    "context": [
+      [
+        "Pré-sal: mergulhe nessa jornada ultraprofunda | Petrobras",
+        [
+          "O pré-sal são rochas sedimentares que foram formadas há mais de 100 milhões de anos com a separação dos atuais continentes sul-americano e africano.",
+          "Com essa separação, surgiram grandes depressões que deram origem a diversos lagos, que mais tarde foram conectados aos oceanos.",
+          "Nas regiões mais profundas destes lagos começaram a acumular grandes quantidades de matéria orgânica de algas microscópicas.",
+          "Esta matéria orgânica, misturada a sedimentos, formou o que são as rochas que geram o óleo e o gás do pré-sal."
+        ]
+      ],
+      [
+        "Geologia | SGB",
+        [
+          "A Geodinâmica é a ciência que investiga a dinâmica da Terra buscando entender todos os processos geológicos envolvidos na sua transformação ao longo do tempo geológico e na geração de recursos naturais como minério, óleo e gás."
+        ]
+      ]
+    ],
+    "expected_answer": "A separação continental gerou depressões lacustres; nelas, matéria orgânica acumulada em regiões profundas foi incorporada aos sedimentos e formou rochas geradoras.",
+    "tipo_inferencia": "temporal_estratigrafica",
+    "source": [
+      "https://petrobras.com.br/pre-sal",
+      "https://www.sgb.gov.br/geologia"
+    ]
+  },
+  {
+    "id": 36,
+    "question": "Que formações concentram os reservatórios carbonáticos identificados no Campo de Mero?",
+    "context": [
+      [
+        "Campo de Mero: caracterização dos reservatórios e desenvolvimento da produção | Universidade Petrobras",
+        [
+          "O Campo de Mero é uma importante área petrolífera na porção setentrional da Bacia de Santos.",
+          "À época foram constatados reservatórios carbonáticos, pertencentes às Formações Barra Velha e Itapema, com excelentes qualidades permoporosa e uma coluna de óleo de cerca de 300 m."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "O reservatório é uma unidade litológica porosa e permeável ou conjunto de unidade que retém as reservas de hidrocarbonetos."
+        ]
+      ]
+    ],
+    "expected_answer": "As Formações Barra Velha e Itapema concentram os reservatórios carbonáticos identificados no Campo de Mero.",
+    "tipo_inferencia": "entidade_estratigrafica",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/22",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 37,
+    "question": "Qual interpretação explica a diferença entre o W735 e os poços 2-ANP-2A-RJS e W731 no Campo de Mero?",
+    "context": [
+      [
+        "Campo de Mero: caracterização dos reservatórios e desenvolvimento da produção | Universidade Petrobras",
+        [
+          "O primeiro poço perfurado na área, após a assinatura do contrato, foi o W731, que confirmou a continuidade dos reservatórios identificados no poço 2-ANP-2A-RJS, na porção Noroeste (NW) da estrutura de Libra.",
+          "No entanto, o segundo poço perfurado, o W735, localiza- do em seu compartimento central, identificou fluido e regime de pressão diferentes daqueles observados nos poços 2-ANP-2A-RJS e W731, configurando uma compartimentação importante na área e direcionando o Plano de Avaliação para a porção NW do bloco."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "A análise de reservatórios no mais simples nível requer uma avaliação da sua porosidade (para calcular o volume de hidrocarbonetos in situ) e sua permeabilidade (para calcular quão facilmente os hidrocarbonetos irão fluir fora dele)."
+        ]
+      ]
+    ],
+    "expected_answer": "A diferença de fluido e regime de pressão indica compartimentação do reservatório na área de Mero.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/22",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 38,
+    "question": "Que evidência sugere continuidade de reservatórios na porção noroeste da estrutura de Libra?",
+    "context": [
+      [
+        "Campo de Mero: caracterização dos reservatórios e desenvolvimento da produção | Universidade Petrobras",
+        [
+          "O primeiro poço perfurado na área, após a assinatura do contrato, foi o W731, que confirmou a continuidade dos reservatórios identificados no poço 2-ANP-2A-RJS, na porção Noroeste (NW) da estrutura de Libra."
+        ]
+      ],
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "A condição para o armazenamento do petróleo nas rochas reservatório é a porosidade de tais rochas, que variam de 5% a 35%, tendo em média de 15% a 30%."
+        ]
+      ]
+    ],
+    "expected_answer": "A confirmação pelo poço W731 dos reservatórios já identificados no 2-ANP-2A-RJS sugere continuidade na porção noroeste da estrutura de Libra.",
+    "tipo_inferencia": "espacial",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/22",
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero"
+    ]
+  },
+  {
+    "id": 39,
+    "question": "Que característica torna o Campo de Mero diferente de outras acumulações do pré-sal?",
+    "context": [
+      [
+        "Campo de Mero: caracterização dos reservatórios e desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Dentre estes o arcabouço estrutural complexo, a ocorrência de rochas ígneas intercaladas aos reservatórios carbonáticos e a presença de hidrocarboneto com alto de teor de CO2."
+        ]
+      ],
+      [
+        "Campo de Búzios: a jornada desde a caracterização dos reservatórios ao início do desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Os desafios de caracterização desses reservatórios envolvem a integração dos estudos de sísmica, dados de poços, petrografia, interpretações de processos deposicionais e diagenéticos, assim como os resultados de testes de produtividade e injetividades das rochas."
+        ]
+      ]
+    ],
+    "expected_answer": "A presença de rochas ígneas intercaladas aos reservatórios carbonáticos e hidrocarboneto com alto teor de CO2 torna Mero particular.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/22",
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/23"
+    ]
+  },
+  {
+    "id": 40,
+    "question": "Que propriedade justifica classificar os carbonatos de Mero como reservatórios?",
+    "context": [
+      [
+        "Campo de Mero: caracterização dos reservatórios e desenvolvimento da produção | Universidade Petrobras",
+        [
+          "À época foram constatados reservatórios carbonáticos, pertencentes às Formações Barra Velha e Itapema, com excelentes qualidades permoporosa e uma coluna de óleo de cerca de 300 m."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "O reservatório é uma unidade litológica porosa e permeável ou conjunto de unidade que retém as reservas de hidrocarbonetos.",
+          "A análise de reservatórios no mais simples nível requer uma avaliação da sua porosidade (para calcular o volume de hidrocarbonetos in situ) e sua permeabilidade (para calcular quão facilmente os hidrocarbonetos irão fluir fora dele)."
+        ]
+      ]
+    ],
+    "expected_answer": "As excelentes qualidades permoporosas indicam capacidade de armazenar e transmitir fluidos, compatível com a função de reservatório.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/22",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 41,
+    "question": "Qual unidade de Búzios é associada a rudstones e grainstones de bivalves nos altos estruturais?",
+    "context": [
+      [
+        "Campo de Búzios: a jornada desde a caracterização dos reservatórios ao início do desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Os reservatórios são rochas carbonáticas de origem lacustre (idade aptiana), depositadas durante o rifteamento oblíquo de abertura da Bacia de Santos e compreende às formações Itapema (Sequência K38) e Barra Velha (Sequências K44 e K46/K48).",
+          "Nos altos estruturais, a Formação Itapema é composta majoritariamente por rudstones e grainstones de bivalves e a Formação Barra Velha, por estromatólitos, grainstones intraclásticos e esferulititos."
+        ]
+      ],
+      [
+        "Estratigrafia e modelos deposicionais carbonáticos do Pré-sal da Bacia de Santos | Universidade Petrobras",
+        [
+          "Depósitos bioclásticos de moluscos bivalves do Barremiano/Aptiano, denominados coquinas do andar local Jiquiá, ocorrem sobre blocos altos falhados, formados durante a tectônica rifte, em morfologias herdadas do embasamento, intercalados com fácies ricas em matéria orgânica em camadas conformantes contínuas nos baixos adjacentes, em ambiente de água doce a salobra."
+        ]
+      ]
+    ],
+    "expected_answer": "A Formação Itapema é associada a rudstones e grainstones de bivalves nos altos estruturais de Búzios.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/23",
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/16"
+    ]
+  },
+  {
+    "id": 42,
+    "question": "Qual unidade de Búzios é associada a estromatólitos, grainstones intraclásticos e esferulititos?",
+    "context": [
+      [
+        "Campo de Búzios: a jornada desde a caracterização dos reservatórios ao início do desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Os reservatórios são rochas carbonáticas de origem lacustre (idade aptiana), depositadas durante o rifteamento oblíquo de abertura da Bacia de Santos e compreende às formações Itapema (Sequência K38) e Barra Velha (Sequências K44 e K46/K48).",
+          "Nos altos estruturais, a Formação Itapema é composta majoritariamente por rudstones e grainstones de bivalves e a Formação Barra Velha, por estromatólitos, grainstones intraclásticos e esferulititos."
+        ]
+      ],
+      [
+        "Pré-sal: mergulhe nessa jornada ultraprofunda | Petrobras",
+        [
+          "Mais pra frente, essas conchas 'ganharam a companhia' de depósitos de estromatólitos, que nada mais são do que tipos de algas que formam rochas calcárias."
+        ]
+      ]
+    ],
+    "expected_answer": "A Formação Barra Velha é associada a estromatólitos, grainstones intraclásticos e esferulititos.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/23",
+      "https://petrobras.com.br/pre-sal"
+    ]
+  },
+  {
+    "id": 43,
+    "question": "Por que os modelos geocelulares são relevantes para interpretar o Campo de Búzios?",
+    "context": [
+      [
+        "Campo de Búzios: a jornada desde a caracterização dos reservatórios ao início do desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Para que esses depósitos sejam representados, são construídos modelos geocelulares faciológicos e petrofísicos, que posteriormente são empregados na simulação de fluxo de fluidos e avaliação volumétrica."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "A análise de reservatórios no mais simples nível requer uma avaliação da sua porosidade (para calcular o volume de hidrocarbonetos in situ) e sua permeabilidade (para calcular quão facilmente os hidrocarbonetos irão fluir fora dele)."
+        ]
+      ]
+    ],
+    "expected_answer": "Eles representam depósitos faciológicos e petrofísicos e são usados para simular fluxo de fluidos e avaliar volumes no campo.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/23",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 44,
+    "question": "Que conjunto de dados é necessário para caracterizar os reservatórios carbonáticos de Búzios?",
+    "context": [
+      [
+        "Campo de Búzios: a jornada desde a caracterização dos reservatórios ao início do desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Os desafios de caracterização desses reservatórios envolvem a integração dos estudos de sísmica, dados de poços, petrografia, interpretações de processos deposicionais e diagenéticos, assim como os resultados de testes de produtividade e injetividades das rochas."
+        ]
+      ],
+      [
+        "Geologia | SGB",
+        [
+          "Tem como foco principal os estudos relacionados à evolução das bacias sedimentares, cuja compreensão requer estudos multidisciplinares de sedimentologia, estratigrafia, paleontologia, geofísica, geologia estrutural e geocronologia."
+        ]
+      ]
+    ],
+    "expected_answer": "A caracterização requer integração de sísmica, dados de poços, petrografia, processos deposicionais e diagenéticos e testes de produtividade/injetividade.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/23",
+      "https://www.sgb.gov.br/geologia"
+    ]
+  },
+  {
+    "id": 45,
+    "question": "Qual interpretação conecta idade aptiana e rifteamento oblíquo aos reservatórios de Búzios?",
+    "context": [
+      [
+        "Campo de Búzios: a jornada desde a caracterização dos reservatórios ao início do desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Os reservatórios são rochas carbonáticas de origem lacustre (idade aptiana), depositadas durante o rifteamento oblíquo de abertura da Bacia de Santos e compreende às formações Itapema (Sequência K38) e Barra Velha (Sequências K44 e K46/K48)."
+        ]
+      ],
+      [
+        "Quem Somos | Comunica Bacia de Santos | Petrobras",
+        [
+          "Formada há mais de 130 milhões de anos, após o início da separação de América do Sul e África, a Bacia de Santos é uma típica bacia sedimentar de margem atlântica, apresentando, porém, uma evolução geológica diferente das bacias de Campos e Pelotas, localizadas respectivamente a norte e sul."
+        ]
+      ]
+    ],
+    "expected_answer": "Os reservatórios de Búzios são carbonatos lacustres aptianos depositados durante o rifteamento oblíquo de abertura da Bacia de Santos.",
+    "tipo_inferencia": "temporal_estratigrafica",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/23",
+      "https://comunicabaciadesantos.petrobras.com.br/quem-somos"
+    ]
+  },
+  {
+    "id": 46,
+    "question": "Qual campo exemplifica reservatórios carbonáticos das Formações Itapema e Barra Velha com coluna de óleo expressiva?",
+    "context": [
+      [
+        "Campo de Mero: caracterização dos reservatórios e desenvolvimento da produção | Universidade Petrobras",
+        [
+          "O Campo de Mero é uma importante área petrolífera na porção setentrional da Bacia de Santos.",
+          "À época foram constatados reservatórios carbonáticos, pertencentes às Formações Barra Velha e Itapema, com excelentes qualidades permoporosa e uma coluna de óleo de cerca de 300 m."
+        ]
+      ],
+      [
+        "Campo de Búzios: a jornada desde a caracterização dos reservatórios ao início do desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Os reservatórios são rochas carbonáticas de origem lacustre (idade aptiana), depositadas durante o rifteamento oblíquo de abertura da Bacia de Santos e compreende às formações Itapema (Sequência K38) e Barra Velha (Sequências K44 e K46/K48)."
+        ]
+      ]
+    ],
+    "expected_answer": "O Campo de Mero exemplifica reservatórios carbonáticos das Formações Barra Velha e Itapema com coluna de óleo de cerca de 300 m.",
+    "tipo_inferencia": "entidade_estratigrafica",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/22",
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/23"
+    ]
+  },
+  {
+    "id": 47,
+    "question": "Que feição em Mero indica que nem toda a estrutura de Libra possui o mesmo comportamento de fluido?",
+    "context": [
+      [
+        "Campo de Mero: caracterização dos reservatórios e desenvolvimento da produção | Universidade Petrobras",
+        [
+          "No entanto, o segundo poço perfurado, o W735, localiza- do em seu compartimento central, identificou fluido e regime de pressão diferentes daqueles observados nos poços 2-ANP-2A-RJS e W731, configurando uma compartimentação importante na área e direcionando o Plano de Avaliação para a porção NW do bloco."
+        ]
+      ],
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "Uma armadilha estrutural consiste de configurações geométricas de estruturas de rochas que acumulam o petróleo, não permitindo sua fuga."
+        ]
+      ]
+    ],
+    "expected_answer": "A diferença de fluido e regime de pressão observada no W735 indica variação interna e compartimentação na estrutura de Libra.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/22",
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero"
+    ]
+  },
+  {
+    "id": 48,
+    "question": "Como a ocorrência de rochas ígneas intercaladas afeta a interpretação de Mero?",
+    "context": [
+      [
+        "Campo de Mero: caracterização dos reservatórios e desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Dentre estes o arcabouço estrutural complexo, a ocorrência de rochas ígneas intercaladas aos reservatórios carbonáticos e a presença de hidrocarboneto com alto de teor de CO2."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "A existência de uma rocha reservatório (tipicamente, arenitos e calcários fraturados) é determinada através de uma combinação de estudos regionais (i.e. análises de outros poços na área), estratigrafia e sedimentologia (para quantificar o padrão e a extensão da sedimentação) e interpretação sísmica."
+        ]
+      ]
+    ],
+    "expected_answer": "Ela indica maior complexidade do arcabouço do reservatório, pois intercala litologias não carbonáticas aos carbonatos produtores.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/22",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 49,
+    "question": "Qual entidade estratigráfica deve ser conectada aos estromatólitos no Campo de Búzios?",
+    "context": [
+      [
+        "Campo de Búzios: a jornada desde a caracterização dos reservatórios ao início do desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Nos altos estruturais, a Formação Itapema é composta majoritariamente por rudstones e grainstones de bivalves e a Formação Barra Velha, por estromatólitos, grainstones intraclásticos e esferulititos."
+        ]
+      ],
+      [
+        "Pré-sal: mergulhe nessa jornada ultraprofunda | Petrobras",
+        [
+          "Mais pra frente, essas conchas 'ganharam a companhia' de depósitos de estromatólitos, que nada mais são do que tipos de algas que formam rochas calcárias."
+        ]
+      ]
+    ],
+    "expected_answer": "A Formação Barra Velha deve ser conectada aos estromatólitos descritos nos altos estruturais de Búzios.",
+    "tipo_inferencia": "entidade_estratigrafica",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/23",
+      "https://petrobras.com.br/pre-sal"
+    ]
+  },
+  {
+    "id": 50,
+    "question": "Qual entidade estratigráfica deve ser conectada aos bivalves no Campo de Búzios?",
+    "context": [
+      [
+        "Campo de Búzios: a jornada desde a caracterização dos reservatórios ao início do desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Nos altos estruturais, a Formação Itapema é composta majoritariamente por rudstones e grainstones de bivalves e a Formação Barra Velha, por estromatólitos, grainstones intraclásticos e esferulititos."
+        ]
+      ],
+      [
+        "Estratigrafia e modelos deposicionais carbonáticos do Pré-sal da Bacia de Santos | Universidade Petrobras",
+        [
+          "Depósitos bioclásticos de moluscos bivalves do Barremiano/Aptiano, denominados coquinas do andar local Jiquiá, ocorrem sobre blocos altos falhados, formados durante a tectônica rifte, em morfologias herdadas do embasamento, intercalados com fácies ricas em matéria orgânica em camadas conformantes contínuas nos baixos adjacentes, em ambiente de água doce a salobra."
+        ]
+      ]
+    ],
+    "expected_answer": "A Formação Itapema deve ser conectada aos rudstones e grainstones de bivalves descritos nos altos estruturais.",
+    "tipo_inferencia": "entidade_estratigrafica",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/23",
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/16"
+    ]
+  },
+  {
+    "id": 51,
+    "question": "Por que Mero exige avaliação espacial cuidadosa dos reservatórios?",
+    "context": [
+      [
+        "Campo de Mero: caracterização dos reservatórios e desenvolvimento da produção | Universidade Petrobras",
+        [
+          "O primeiro poço perfurado na área, após a assinatura do contrato, foi o W731, que confirmou a continuidade dos reservatórios identificados no poço 2-ANP-2A-RJS, na porção Noroeste (NW) da estrutura de Libra.",
+          "No entanto, o segundo poço perfurado, o W735, localiza- do em seu compartimento central, identificou fluido e regime de pressão diferentes daqueles observados nos poços 2-ANP-2A-RJS e W731, configurando uma compartimentação importante na área e direcionando o Plano de Avaliação para a porção NW do bloco."
+        ]
+      ],
+      [
+        "Campo de Búzios: a jornada desde a caracterização dos reservatórios ao início do desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Para que esses depósitos sejam representados, são construídos modelos geocelulares faciológicos e petrofísicos, que posteriormente são empregados na simulação de fluxo de fluidos e avaliação volumétrica."
+        ]
+      ]
+    ],
+    "expected_answer": "Porque há continuidade na porção noroeste e compartimentação no compartimento central, demonstrando variação espacial de fluidos e pressão.",
+    "tipo_inferencia": "espacial",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/22",
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/23"
+    ]
+  },
+  {
+    "id": 52,
+    "question": "Qual conclusão decorre da associação entre Mero e a porção setentrional da Bacia de Santos?",
+    "context": [
+      [
+        "Campo de Mero: caracterização dos reservatórios e desenvolvimento da produção | Universidade Petrobras",
+        [
+          "O Campo de Mero é uma importante área petrolífera na porção setentrional da Bacia de Santos.",
+          "À época foram constatados reservatórios carbonáticos, pertencentes às Formações Barra Velha e Itapema, com excelentes qualidades permoporosa e uma coluna de óleo de cerca de 300 m."
+        ]
+      ],
+      [
+        "Quem Somos | Comunica Bacia de Santos | Petrobras",
+        [
+          "A Bacia de Santos é a maior bacia sedimentar marítima brasileira, com uma área total de mais de 350 mil quilômetros quadrados e que se estende de Cabo Frio (RJ) a Florianópolis (SC)."
+        ]
+      ]
+    ],
+    "expected_answer": "Mero representa uma acumulação do pré-sal localizada na porção norte da Bacia de Santos, com reservatórios carbonáticos de Barra Velha e Itapema.",
+    "tipo_inferencia": "espacial",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/22",
+      "https://comunicabaciadesantos.petrobras.com.br/quem-somos"
+    ]
+  },
+  {
+    "id": 53,
+    "question": "Que papel têm os testes de produtividade na caracterização de Búzios?",
+    "context": [
+      [
+        "Campo de Búzios: a jornada desde a caracterização dos reservatórios ao início do desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Os desafios de caracterização desses reservatórios envolvem a integração dos estudos de sísmica, dados de poços, petrografia, interpretações de processos deposicionais e diagenéticos, assim como os resultados de testes de produtividade e injetividades das rochas."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "A análise de reservatórios no mais simples nível requer uma avaliação da sua porosidade (para calcular o volume de hidrocarbonetos in situ) e sua permeabilidade (para calcular quão facilmente os hidrocarbonetos irão fluir fora dele)."
+        ]
+      ]
+    ],
+    "expected_answer": "Eles ajudam a avaliar o comportamento produtivo e a injetividade das rochas, complementando a interpretação sísmica, de poços e petrográfica.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/23",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 54,
+    "question": "Que característica aproxima Búzios dos modelos de carbonatos lacustres do pré-sal?",
+    "context": [
+      [
+        "Campo de Búzios: a jornada desde a caracterização dos reservatórios ao início do desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Os reservatórios são rochas carbonáticas de origem lacustre (idade aptiana), depositadas durante o rifteamento oblíquo de abertura da Bacia de Santos e compreende às formações Itapema (Sequência K38) e Barra Velha (Sequências K44 e K46/K48)."
+        ]
+      ],
+      [
+        "Estratigrafia e modelos deposicionais carbonáticos do Pré-sal da Bacia de Santos | Universidade Petrobras",
+        [
+          "Campos gigantes e supergigantes de alta produtividade na seção Pré-sal da Bacia de Santos são constituídos predominantemente por fácies carbonáticas lacustres e selados por espessa camada de evaporitos."
+        ]
+      ]
+    ],
+    "expected_answer": "Búzios possui reservatórios carbonáticos lacustres aptianos nas formações Itapema e Barra Velha, compatíveis com os carbonatos lacustres do pré-sal.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/23",
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/16"
+    ]
+  },
+  {
+    "id": 55,
+    "question": "Que entidade de Mero deve ser relacionada à qualidade permoporosa excelente?",
+    "context": [
+      [
+        "Campo de Mero: caracterização dos reservatórios e desenvolvimento da produção | Universidade Petrobras",
+        [
+          "À época foram constatados reservatórios carbonáticos, pertencentes às Formações Barra Velha e Itapema, com excelentes qualidades permoporosa e uma coluna de óleo de cerca de 300 m."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "O reservatório é uma unidade litológica porosa e permeável ou conjunto de unidade que retém as reservas de hidrocarbonetos."
+        ]
+      ]
+    ],
+    "expected_answer": "Os reservatórios carbonáticos das Formações Barra Velha e Itapema devem ser relacionados à excelente qualidade permoporosa.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/22",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 56,
+    "question": "Qual interpretação decorre da necessidade de reinjeção total do gás produzido em Mero?",
+    "context": [
+      [
+        "Campo de Mero: caracterização dos reservatórios e desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Dentre estes o arcabouço estrutural complexo, a ocorrência de rochas ígneas intercaladas aos reservatórios carbonáticos e a presença de hidrocarboneto com alto de teor de CO2."
+        ]
+      ],
+      [
+        "Campo de Mero: caracterização dos reservatórios e desenvolvimento da produção | Universidade Petrobras",
+        [
+          "O Campo de Mero é uma importante área petrolífera na porção setentrional da Bacia de Santos."
+        ]
+      ]
+    ],
+    "expected_answer": "A estratégia de produção deve considerar o fluido produzido e o alto teor de CO2, integrando propriedades do hidrocarboneto ao desenvolvimento do campo.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/22"
+    ]
+  },
+  {
+    "id": 57,
+    "question": "Que aspecto do Campo de Búzios conecta geologia e engenharia de reservatórios?",
+    "context": [
+      [
+        "Campo de Búzios: a jornada desde a caracterização dos reservatórios ao início do desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Para que esses depósitos sejam representados, são construídos modelos geocelulares faciológicos e petrofísicos, que posteriormente são empregados na simulação de fluxo de fluidos e avaliação volumétrica."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "A análise de reservatórios no mais simples nível requer uma avaliação da sua porosidade (para calcular o volume de hidrocarbonetos in situ) e sua permeabilidade (para calcular quão facilmente os hidrocarbonetos irão fluir fora dele)."
+        ]
+      ]
+    ],
+    "expected_answer": "A construção de modelos geocelulares para simulação de fluxo conecta a caracterização geológica à avaliação de produção.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/23",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 58,
+    "question": "O que Itapema e Barra Velha têm em comum nos campos de Mero e Búzios?",
+    "context": [
+      [
+        "Campo de Mero: caracterização dos reservatórios e desenvolvimento da produção | Universidade Petrobras",
+        [
+          "À época foram constatados reservatórios carbonáticos, pertencentes às Formações Barra Velha e Itapema, com excelentes qualidades permoporosa e uma coluna de óleo de cerca de 300 m."
+        ]
+      ],
+      [
+        "Campo de Búzios: a jornada desde a caracterização dos reservatórios ao início do desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Os reservatórios são rochas carbonáticas de origem lacustre (idade aptiana), depositadas durante o rifteamento oblíquo de abertura da Bacia de Santos e compreende às formações Itapema (Sequência K38) e Barra Velha (Sequências K44 e K46/K48)."
+        ]
+      ]
+    ],
+    "expected_answer": "As duas formações são associadas a reservatórios carbonáticos do pré-sal nos dois campos.",
+    "tipo_inferencia": "entidade_estratigrafica",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/22",
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/23"
+    ]
+  },
+  {
+    "id": 59,
+    "question": "Por que o W735 não deve ser interpretado como simples repetição dos poços da porção noroeste?",
+    "context": [
+      [
+        "Campo de Mero: caracterização dos reservatórios e desenvolvimento da produção | Universidade Petrobras",
+        [
+          "O primeiro poço perfurado na área, após a assinatura do contrato, foi o W731, que confirmou a continuidade dos reservatórios identificados no poço 2-ANP-2A-RJS, na porção Noroeste (NW) da estrutura de Libra.",
+          "No entanto, o segundo poço perfurado, o W735, localiza- do em seu compartimento central, identificou fluido e regime de pressão diferentes daqueles observados nos poços 2-ANP-2A-RJS e W731, configurando uma compartimentação importante na área e direcionando o Plano de Avaliação para a porção NW do bloco."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "Finalmente, estudos de migração revelam informação sobre como hidrocarbonetos movem-se da fonte ao reservatório e ajudam a quantificar a fonte (ou \"a cozinha\") dos hidrocarbonetos em uma área em particular."
+        ]
+      ]
+    ],
+    "expected_answer": "Porque ele identificou fluido e regime de pressão diferentes, indicando compartimento distinto no Campo de Mero.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/22",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 60,
+    "question": "Qual entidade petrolífera de Búzios deve ser associada ao rifteamento oblíquo da Bacia de Santos?",
+    "context": [
+      [
+        "Campo de Búzios: a jornada desde a caracterização dos reservatórios ao início do desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Os reservatórios são rochas carbonáticas de origem lacustre (idade aptiana), depositadas durante o rifteamento oblíquo de abertura da Bacia de Santos e compreende às formações Itapema (Sequência K38) e Barra Velha (Sequências K44 e K46/K48)."
+        ]
+      ],
+      [
+        "Quem Somos | Comunica Bacia de Santos | Petrobras",
+        [
+          "Formada há mais de 130 milhões de anos, após o início da separação de América do Sul e África, a Bacia de Santos é uma típica bacia sedimentar de margem atlântica, apresentando, porém, uma evolução geológica diferente das bacias de Campos e Pelotas, localizadas respectivamente a norte e sul."
+        ]
+      ]
+    ],
+    "expected_answer": "Os reservatórios carbonáticos aptianos de Itapema e Barra Velha devem ser associados ao rifteamento oblíquo de abertura da Bacia de Santos.",
+    "tipo_inferencia": "temporal_estratigrafica",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/23",
+      "https://comunicabaciadesantos.petrobras.com.br/quem-somos"
+    ]
+  },
+  {
+    "id": 61,
+    "question": "Que função têm a sísmica e os dados de poços na interpretação de Búzios?",
+    "context": [
+      [
+        "Campo de Búzios: a jornada desde a caracterização dos reservatórios ao início do desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Os desafios de caracterização desses reservatórios envolvem a integração dos estudos de sísmica, dados de poços, petrografia, interpretações de processos deposicionais e diagenéticos, assim como os resultados de testes de produtividade e injetividades das rochas.",
+          "Para que esses depósitos sejam representados, são construídos modelos geocelulares faciológicos e petrofísicos, que posteriormente são empregados na simulação de fluxo de fluidos e avaliação volumétrica."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "A existência de uma rocha reservatório (tipicamente, arenitos e calcários fraturados) é determinada através de uma combinação de estudos regionais (i.e. análises de outros poços na área), estratigrafia e sedimentologia (para quantificar o padrão e a extensão da sedimentação) e interpretação sísmica."
+        ]
+      ]
+    ],
+    "expected_answer": "Eles sustentam a caracterização dos reservatórios, permitindo integrar geometria, fácies, propriedades petrofísicas e comportamento de fluidos.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/23",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 62,
+    "question": "Qual característica de Mero exige diferenciar litologia reservatório de litologia intercalada?",
+    "context": [
+      [
+        "Campo de Mero: caracterização dos reservatórios e desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Dentre estes o arcabouço estrutural complexo, a ocorrência de rochas ígneas intercaladas aos reservatórios carbonáticos e a presença de hidrocarboneto com alto de teor de CO2."
+        ]
+      ],
+      [
+        "Rochas | SGB",
+        [
+          "De um modo geral e amplo, as rochas sedimentares mais comuns podem ser divididas em arenosas (detríticas), argilosas (detríticas) e carbonatadas (não detríticas), estas últimas subdivididas em calcários e dolomitos."
+        ]
+      ]
+    ],
+    "expected_answer": "A ocorrência de rochas ígneas intercaladas aos reservatórios carbonáticos exige distinguir os carbonatos reservatório das intercalações ígneas.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/22",
+      "https://www.sgb.gov.br/rochas"
+    ]
+  },
+  {
+    "id": 63,
+    "question": "Que formação em Búzios pode ser inferida quando o contexto menciona esferulititos?",
+    "context": [
+      [
+        "Campo de Búzios: a jornada desde a caracterização dos reservatórios ao início do desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Nos altos estruturais, a Formação Itapema é composta majoritariamente por rudstones e grainstones de bivalves e a Formação Barra Velha, por estromatólitos, grainstones intraclásticos e esferulititos."
+        ]
+      ],
+      [
+        "Estratigrafia e modelos deposicionais carbonáticos do Pré-sal da Bacia de Santos | Universidade Petrobras",
+        [
+          "As rochas carbonáticas do Aptiano, andar local Alagoas, são depósitos autóctones bioquímicos representados por laminitos e arbustos fasciculares (estromatolitos) que se depositaram em condições alcalinas, sobre altos herdados do embasamento e em contexto de subsidência térmica flexural com menor influência de falhas."
+        ]
+      ]
+    ],
+    "expected_answer": "A Formação Barra Velha pode ser inferida, pois ela é descrita com estromatólitos, grainstones intraclásticos e esferulititos.",
+    "tipo_inferencia": "entidade_estratigrafica",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/23",
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/16"
+    ]
+  },
+  {
+    "id": 64,
+    "question": "Que formação em Búzios pode ser inferida quando o contexto menciona bivalves?",
+    "context": [
+      [
+        "Campo de Búzios: a jornada desde a caracterização dos reservatórios ao início do desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Nos altos estruturais, a Formação Itapema é composta majoritariamente por rudstones e grainstones de bivalves e a Formação Barra Velha, por estromatólitos, grainstones intraclásticos e esferulititos."
+        ]
+      ],
+      [
+        "Estratigrafia e modelos deposicionais carbonáticos do Pré-sal da Bacia de Santos | Universidade Petrobras",
+        [
+          "Depósitos bioclásticos de moluscos bivalves do Barremiano/Aptiano, denominados coquinas do andar local Jiquiá, ocorrem sobre blocos altos falhados, formados durante a tectônica rifte, em morfologias herdadas do embasamento, intercalados com fácies ricas em matéria orgânica em camadas conformantes contínuas nos baixos adjacentes, em ambiente de água doce a salobra."
+        ]
+      ]
+    ],
+    "expected_answer": "A Formação Itapema pode ser inferida, pois é composta majoritariamente por rudstones e grainstones de bivalves nos altos estruturais.",
+    "tipo_inferencia": "entidade_estratigrafica",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/23",
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/16"
+    ]
+  },
+  {
+    "id": 65,
+    "question": "Como a compartimentação de Mero se manifesta nos dados de poços?",
+    "context": [
+      [
+        "Campo de Mero: caracterização dos reservatórios e desenvolvimento da produção | Universidade Petrobras",
+        [
+          "O primeiro poço perfurado na área, após a assinatura do contrato, foi o W731, que confirmou a continuidade dos reservatórios identificados no poço 2-ANP-2A-RJS, na porção Noroeste (NW) da estrutura de Libra.",
+          "No entanto, o segundo poço perfurado, o W735, localiza- do em seu compartimento central, identificou fluido e regime de pressão diferentes daqueles observados nos poços 2-ANP-2A-RJS e W731, configurando uma compartimentação importante na área e direcionando o Plano de Avaliação para a porção NW do bloco."
+        ]
+      ],
+      [
+        "Campo de Búzios: a jornada desde a caracterização dos reservatórios ao início do desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Os desafios de caracterização desses reservatórios envolvem a integração dos estudos de sísmica, dados de poços, petrografia, interpretações de processos deposicionais e diagenéticos, assim como os resultados de testes de produtividade e injetividades das rochas."
+        ]
+      ]
+    ],
+    "expected_answer": "Ela se manifesta pela diferença de fluido e regime de pressão entre o W735 e os poços 2-ANP-2A-RJS e W731.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/22",
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/23"
+    ]
+  },
+  {
+    "id": 66,
+    "question": "Que rocha geradora deve ser associada à Bacia de Campos?",
+    "context": [
+      [
+        "Bacia de Campos | Wikipédia",
+        [
+          "As rochas geradoras de hidrocarbonetos da Bacia de Campos correspondem a folhelhos orgânicos."
+        ]
+      ],
+      [
+        "Petróleo | SGB",
+        [
+          "A rocha onde o petróleo se forma é chamada de rocha geradora.",
+          "As rochas geradoras mais comuns são folhelhos negros."
+        ]
+      ]
+    ],
+    "expected_answer": "Os folhelhos orgânicos devem ser associados à função de rocha geradora na Bacia de Campos.",
+    "tipo_inferencia": "entidade_funcao",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Bacia_de_Campos",
+      "https://www.sgb.gov.br/petroleo"
+    ]
+  },
+  {
+    "id": 67,
+    "question": "Que reservatórios siliciclásticos são centrais na Bacia de Campos entre o Albiano e o Mioceno?",
+    "context": [
+      [
+        "Bacia de Campos | Wikipédia",
+        [
+          "As principais rochas reservatório da bacia são arenitos turbidíticos, depositados desde o andar geológico Albiano até o Mioceno, seguidos de calcarenitos, depositados durante o andar Albiano, calcáreos de origem microbial, principalmente cianobactérias, depositadas durante o andar Aptiano e de coquinas, rochas formadas por restos de carapaças de crustáceos, e que foram depositadas durante o andar Barremiano."
+        ]
+      ],
+      [
+        "Turbidito | Wikipédia",
+        [
+          "As sequências turbidíticas são muito procuradas pelos geólogos de petróleo por constituírem bons reservatórios para hidrocarbonetos."
+        ]
+      ]
+    ],
+    "expected_answer": "Os arenitos turbidíticos são os reservatórios siliciclásticos centrais, com deposição do Albiano ao Mioceno.",
+    "tipo_inferencia": "temporal_estratigrafica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Bacia_de_Campos",
+      "https://pt.wikipedia.org/wiki/Turbidito"
+    ]
+  },
+  {
+    "id": 68,
+    "question": "Qual formação da Bacia de Campos deve ser ligada a turbiditos?",
+    "context": [
+      [
+        "Bacia de Campos | Wikipédia",
+        [
+          "Turbiditos Formação Carapebus K. e Terciano"
+        ]
+      ],
+      [
+        "Turbidito | Wikipédia",
+        [
+          "Turbiditos são depósitos sedimentares originados por correntes de turbidez submarinas, sobretudo em bacias de antepaís (foreland), em ambiente tectônico de margem convergente (ativa).",
+          "As sequências turbidíticas são muito procuradas pelos geólogos de petróleo por constituírem bons reservatórios para hidrocarbonetos."
+        ]
+      ]
+    ],
+    "expected_answer": "A Formação Carapebus deve ser ligada a turbiditos na Bacia de Campos.",
+    "tipo_inferencia": "entidade_estratigrafica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Bacia_de_Campos",
+      "https://pt.wikipedia.org/wiki/Turbidito"
+    ]
+  },
+  {
+    "id": 69,
+    "question": "Qual formação da Bacia de Campos deve ser ligada a carbonatos albiano?",
+    "context": [
+      [
+        "Bacia de Campos | Wikipédia",
+        [
+          "Carbonatos Formação de Macaé Albiano"
+        ]
+      ],
+      [
+        "Rochas | SGB",
+        [
+          "De um modo geral e amplo, as rochas sedimentares mais comuns podem ser divididas em arenosas (detríticas), argilosas (detríticas) e carbonatadas (não detríticas), estas últimas subdivididas em calcários e dolomitos."
+        ]
+      ]
+    ],
+    "expected_answer": "A Formação de Macaé deve ser ligada a carbonatos do Albiano.",
+    "tipo_inferencia": "entidade_estratigrafica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Bacia_de_Campos",
+      "https://www.sgb.gov.br/rochas"
+    ]
+  },
+  {
+    "id": 70,
+    "question": "Qual unidade da Formação de Macaé deve ser ligada ao Turoniano?",
+    "context": [
+      [
+        "Bacia de Campos | Wikipédia",
+        [
+          "Arenitos Arenito Namorado da Formação de Macaé Turoniano"
+        ]
+      ],
+      [
+        "Como Sabemos a Idade das Rochas? | SGB",
+        [
+          "Esse material vai sendo empilhado e, naturalmente, quanto mais embaixo ele estiver na pilha mais antigo ele é."
+        ]
+      ]
+    ],
+    "expected_answer": "O Arenito Namorado da Formação de Macaé deve ser ligado ao Turoniano.",
+    "tipo_inferencia": "temporal_estratigrafica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Bacia_de_Campos",
+      "https://www.sgb.gov.br/como-sabemos-a-idade-das-rochas"
+    ]
+  },
+  {
+    "id": 71,
+    "question": "Qual formação da Bacia de Campos deve ser ligada a coquinas barremianas?",
+    "context": [
+      [
+        "Bacia de Campos | Wikipédia",
+        [
+          "Coquinas Formação Lagoa Feia Barremiano"
+        ]
+      ],
+      [
+        "Estratigrafia e modelos deposicionais carbonáticos do Pré-sal da Bacia de Santos | Universidade Petrobras",
+        [
+          "Depósitos bioclásticos de moluscos bivalves do Barremiano/Aptiano, denominados coquinas do andar local Jiquiá, ocorrem sobre blocos altos falhados, formados durante a tectônica rifte, em morfologias herdadas do embasamento, intercalados com fácies ricas em matéria orgânica em camadas conformantes contínuas nos baixos adjacentes, em ambiente de água doce a salobra."
+        ]
+      ]
+    ],
+    "expected_answer": "A Formação Lagoa Feia deve ser ligada a coquinas do Barremiano.",
+    "tipo_inferencia": "entidade_estratigrafica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Bacia_de_Campos",
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/16"
+    ]
+  },
+  {
+    "id": 72,
+    "question": "Qual limite separa a Bacia de Campos da Bacia de Santos?",
+    "context": [
+      [
+        "Bacia de Campos | Wikipédia",
+        [
+          "A Bacia de Campos é uma bacia sedimentar brasileira situada na costa norte do estado do Rio de Janeiro, estendendo-se até o sul do estado do Espírito Santo, entre os paralelos 21 e 23 sul.",
+          "Seu limite, ao sul, com a Bacia de Santos ocorre no Alto de Cabo Frio; ao norte, com a Bacia do Espírito Santo, ocorre no Alto de Vitória."
+        ]
+      ],
+      [
+        "Quem Somos | Comunica Bacia de Santos | Petrobras",
+        [
+          "Formada há mais de 130 milhões de anos, após o início da separação de América do Sul e África, a Bacia de Santos é uma típica bacia sedimentar de margem atlântica, apresentando, porém, uma evolução geológica diferente das bacias de Campos e Pelotas, localizadas respectivamente a norte e sul."
+        ]
+      ]
+    ],
+    "expected_answer": "O Alto de Cabo Frio separa a Bacia de Campos da Bacia de Santos ao sul.",
+    "tipo_inferencia": "espacial",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Bacia_de_Campos",
+      "https://comunicabaciadesantos.petrobras.com.br/quem-somos"
+    ]
+  },
+  {
+    "id": 73,
+    "question": "Qual limite separa a Bacia de Campos da Bacia do Espírito Santo?",
+    "context": [
+      [
+        "Bacia de Campos | Wikipédia",
+        [
+          "Seu limite, ao sul, com a Bacia de Santos ocorre no Alto de Cabo Frio; ao norte, com a Bacia do Espírito Santo, ocorre no Alto de Vitória."
+        ]
+      ],
+      [
+        "Pré-sal Bacia de Santos | Comunica Bacia de Santos | Petrobras",
+        [
+          "O pré-sal é uma formação rochosa localizada no subsolo da costa brasileira, que se estende entre os estados de Santa Catarina e Espírito Santo, atingindo uma área de cerca de 800 quilômetros de extensão por 200 quilômetros de largura."
+        ]
+      ]
+    ],
+    "expected_answer": "O Alto de Vitória marca o limite norte da Bacia de Campos com a Bacia do Espírito Santo.",
+    "tipo_inferencia": "espacial",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Bacia_de_Campos",
+      "https://comunicabaciadesantos.petrobras.com.br/pre-sal-bacia-de-santos"
+    ]
+  },
+  {
+    "id": 74,
+    "question": "Que estágio evolutivo da Bacia de Campos é compatível com contexto marinho?",
+    "context": [
+      [
+        "Bacia de Campos | Wikipédia",
+        [
+          "Reconhece-se quatro estágios geológicos evolutivos na bacia de Campos, que são pré-rifte (continental), rifte (continental), proto-oceânico (transicional evaporítico) e drift (marinho)."
+        ]
+      ],
+      [
+        "Rochas | SGB",
+        [
+          "O mais extenso e mais duradouro dos ambientes de deposição é o marinho."
+        ]
+      ]
+    ],
+    "expected_answer": "O estágio drift é compatível com contexto marinho na evolução da Bacia de Campos.",
+    "tipo_inferencia": "temporal_estratigrafica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Bacia_de_Campos",
+      "https://www.sgb.gov.br/rochas"
+    ]
+  },
+  {
+    "id": 75,
+    "question": "Que estágio evolutivo da Bacia de Campos é compatível com ambiente evaporítico transicional?",
+    "context": [
+      [
+        "Bacia de Campos | Wikipédia",
+        [
+          "Reconhece-se quatro estágios geológicos evolutivos na bacia de Campos, que são pré-rifte (continental), rifte (continental), proto-oceânico (transicional evaporítico) e drift (marinho)."
+        ]
+      ],
+      [
+        "Evaporito | Wikipédia",
+        [
+          "Na visão tradicional, evaporito ou depósito salino é uma rocha sedimentar formada pela cristalização e precipitação química dos sais dissolvidos em um meio aquoso, devido a um processo de evaporação.",
+          "Seu ambiente de formação são bacias fechadas sujeitas a evaporação intensa."
+        ]
+      ]
+    ],
+    "expected_answer": "O estágio proto-oceânico é compatível com o ambiente transicional evaporítico.",
+    "tipo_inferencia": "temporal_estratigrafica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Bacia_de_Campos",
+      "https://pt.wikipedia.org/wiki/Evaporito"
+    ]
+  },
+  {
+    "id": 76,
+    "question": "Por que os turbiditos são bons candidatos a reservatórios de hidrocarbonetos?",
+    "context": [
+      [
+        "Turbidito | Wikipédia",
+        [
+          "Turbiditos são depósitos sedimentares originados por correntes de turbidez submarinas, sobretudo em bacias de antepaís (foreland), em ambiente tectônico de margem convergente (ativa).",
+          "Os depósitos se formam por fluxos hiperpicnais concentrados, constituindo sucessões de estratos sedimentares arenosos e pelágicos bastante espessos, num curto período de tempo geológico.",
+          "As sequências turbidíticas são muito procuradas pelos geólogos de petróleo por constituírem bons reservatórios para hidrocarbonetos."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "O reservatório é uma unidade litológica porosa e permeável ou conjunto de unidade que retém as reservas de hidrocarbonetos."
+        ]
+      ]
+    ],
+    "expected_answer": "Porque formam sucessões arenosas depositadas por correntes de turbidez e são reconhecidos como bons reservatórios para hidrocarbonetos.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Turbidito",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 77,
+    "question": "Que propriedade dos arenitos turbidíticos favorece sua função de reservatório?",
+    "context": [
+      [
+        "Turbidito | Wikipédia",
+        [
+          "Para a maioria dos geólogos, um turbidito é uma camada com gradação grano-classificada consistindo num conjunto de estratos arenito/pelito que foram depositados por corrente de turbidez e é comumente coberta por pelitos hemipelágicos contendo assembléia de fósseis de águas profundas.",
+          "Os depósitos se formam por fluxos hiperpicnais concentrados, constituindo sucessões de estratos sedimentares arenosos e pelágicos bastante espessos, num curto período de tempo geológico."
+        ]
+      ],
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "A condição para o armazenamento do petróleo nas rochas reservatório é a porosidade de tais rochas, que variam de 5% a 35%, tendo em média de 15% a 30%.",
+          "Geralmente são compostas por granulometria de areia a seixo como arenitos, calcarenitos ou conglomerados."
+        ]
+      ]
+    ],
+    "expected_answer": "Sua natureza arenosa se relaciona à porosidade e permeabilidade necessárias ao armazenamento e fluxo de hidrocarbonetos.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Turbidito",
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero"
+    ]
+  },
+  {
+    "id": 78,
+    "question": "Qual entidade na Bacia de Campos deve ser conectada aos reservatórios do pré-sal informal?",
+    "context": [
+      [
+        "Bacia de Campos | Wikipédia",
+        [
+          "As principais rochas reservatório da bacia são arenitos turbidíticos, depositados desde o andar geológico Albiano até o Mioceno, seguidos de calcarenitos, depositados durante o andar Albiano, calcáreos de origem microbial, principalmente cianobactérias, depositadas durante o andar Aptiano e de coquinas, rochas formadas por restos de carapaças de crustáceos, e que foram depositadas durante o andar Barremiano.",
+          "Tanto as coquinas quanto os calcáreos microbiais são informalmente denominados como Camada pré-sal."
+        ]
+      ],
+      [
+        "Pré-sal: mergulhe nessa jornada ultraprofunda | Petrobras",
+        [
+          "Tanto as conchas calcárias quanto as rochas calcárias compõem os principais reservatórios do pré-sal."
+        ]
+      ]
+    ],
+    "expected_answer": "As coquinas e os calcáreos microbiais devem ser conectados à Camada pré-sal informal.",
+    "tipo_inferencia": "entidade_estratigrafica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Bacia_de_Campos",
+      "https://petrobras.com.br/pre-sal"
+    ]
+  },
+  {
+    "id": 79,
+    "question": "Qual rocha reservatório de Campos combina origem carbonática e idade Aptiana?",
+    "context": [
+      [
+        "Bacia de Campos | Wikipédia",
+        [
+          "As principais rochas reservatório da bacia são arenitos turbidíticos, depositados desde o andar geológico Albiano até o Mioceno, seguidos de calcarenitos, depositados durante o andar Albiano, calcáreos de origem microbial, principalmente cianobactérias, depositadas durante o andar Aptiano e de coquinas, rochas formadas por restos de carapaças de crustáceos, e que foram depositadas durante o andar Barremiano."
+        ]
+      ],
+      [
+        "Estratigrafia e modelos deposicionais carbonáticos do Pré-sal da Bacia de Santos | Universidade Petrobras",
+        [
+          "As rochas carbonáticas do Aptiano, andar local Alagoas, são depósitos autóctones bioquímicos representados por laminitos e arbustos fasciculares (estromatolitos) que se depositaram em condições alcalinas, sobre altos herdados do embasamento e em contexto de subsidência térmica flexural com menor influência de falhas."
+        ]
+      ]
+    ],
+    "expected_answer": "Os calcáreos de origem microbial depositados no Aptiano combinam origem carbonática e idade Aptiana.",
+    "tipo_inferencia": "temporal_estratigrafica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Bacia_de_Campos",
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/16"
+    ]
+  },
+  {
+    "id": 80,
+    "question": "Que evidência liga reservatórios turbidíticos a águas profundas?",
+    "context": [
+      [
+        "Turbidito | Wikipédia",
+        [
+          "Turbiditos são depósitos sedimentares originados por correntes de turbidez submarinas, sobretudo em bacias de antepaís (foreland), em ambiente tectônico de margem convergente (ativa).",
+          "Para a maioria dos geólogos, um turbidito é uma camada com gradação grano-classificada consistindo num conjunto de estratos arenito/pelito que foram depositados por corrente de turbidez e é comumente coberta por pelitos hemipelágicos contendo assembléia de fósseis de águas profundas."
+        ]
+      ],
+      [
+        "Petrobras descobre petróleo em águas ultraprofundas da Bacia Potiguar | Agência Petrobras",
+        [
+          "A constatação de reservatórios turbidíticos de idade Albiana portador de petróleo é inédita na Bacia Potiguar e foi realizada através de perfis elétricos e amostras de óleo, que serão posteriormente caracterizados por meio de análises de laboratório."
+        ]
+      ]
+    ],
+    "expected_answer": "Turbiditos são depositados por correntes submarinas e podem conter fósseis de águas profundas, o que sustenta sua interpretação em ambientes profundos.",
+    "tipo_inferencia": "ambiente_deposicional",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Turbidito",
+      "https://agencia.petrobras.com.br/w/negocio/petrobras-descobre-petroleo-em-aguas-ultra-profundas-da-bacia-potiguar"
+    ]
+  },
+  {
+    "id": 81,
+    "question": "Qual descoberta na Bacia Potiguar deve ser associada a reservatórios turbidíticos albiano?",
+    "context": [
+      [
+        "Petrobras descobre petróleo em águas ultraprofundas da Bacia Potiguar | Agência Petrobras",
+        [
+          "A Petrobras descobriu uma acumulação de petróleo em águas ultraprofundas da Bacia Potiguar, no poço exploratório Anhangá, da Concessão POT-M-762_R15.",
+          "A constatação de reservatórios turbidíticos de idade Albiana portador de petróleo é inédita na Bacia Potiguar e foi realizada através de perfis elétricos e amostras de óleo, que serão posteriormente caracterizados por meio de análises de laboratório."
+        ]
+      ],
+      [
+        "Turbidito | Wikipédia",
+        [
+          "Turbiditos são depósitos sedimentares originados por correntes de turbidez submarinas, sobretudo em bacias de antepaís (foreland), em ambiente tectônico de margem convergente (ativa)."
+        ]
+      ]
+    ],
+    "expected_answer": "A descoberta de Anhangá deve ser associada a reservatórios turbidíticos de idade Albiana.",
+    "tipo_inferencia": "entidade_estratigrafica",
+    "source": [
+      "https://agencia.petrobras.com.br/w/negocio/petrobras-descobre-petroleo-em-aguas-ultra-profundas-da-bacia-potiguar",
+      "https://pt.wikipedia.org/wiki/Turbidito"
+    ]
+  },
+  {
+    "id": 82,
+    "question": "Que poço comprovou hidrocarboneto antes da descoberta de Anhangá na Bacia Potiguar?",
+    "context": [
+      [
+        "Petrobras descobre petróleo em águas ultraprofundas da Bacia Potiguar | Agência Petrobras",
+        [
+          "Esta é a segunda descoberta na Bacia Potiguar em 2024 e foi precedida pela comprovação da presença de hidrocarboneto no Poço Pitu Oeste, localizado na Concessão BM-POT-17, a cerca de 24 km de Anhangá."
+        ]
+      ],
+      [
+        "Petrobras descobre petróleo em águas ultraprofundas da Bacia Potiguar | Agência Petrobras",
+        [
+          "A Petrobras descobriu uma acumulação de petróleo em águas ultraprofundas da Bacia Potiguar, no poço exploratório Anhangá, da Concessão POT-M-762_R15."
+        ]
+      ]
+    ],
+    "expected_answer": "O Poço Pitu Oeste comprovou a presença de hidrocarboneto antes da descoberta de Anhangá.",
+    "tipo_inferencia": "temporal_estratigrafica",
+    "source": [
+      "https://agencia.petrobras.com.br/w/negocio/petrobras-descobre-petroleo-em-aguas-ultra-profundas-da-bacia-potiguar"
+    ]
+  },
+  {
+    "id": 83,
+    "question": "Qual concessão está ligada ao poço exploratório Anhangá?",
+    "context": [
+      [
+        "Petrobras descobre petróleo em águas ultraprofundas da Bacia Potiguar | Agência Petrobras",
+        [
+          "A Petrobras descobriu uma acumulação de petróleo em águas ultraprofundas da Bacia Potiguar, no poço exploratório Anhangá, da Concessão POT-M-762_R15.",
+          "O poço 1-BRSA-1390-RNS (Anhangá) está situado próximo à fronteira entre os estados do Ceará e do Rio Grande do Norte, a cerca de 190 km de Fortaleza e 250 km de Natal, em profundidade d’água de 2.196 metros, na Margem Equatorial brasileira."
+        ]
+      ],
+      [
+        "Petrobras descobre petróleo em águas ultraprofundas da Bacia Potiguar | Agência Petrobras",
+        [
+          "A Petrobras dará continuidade às atividades exploratórias na Concessão POT-M-762_R15, visando avaliar a qualidade dos reservatórios, as características do óleo e a viabilidade técnico-comercial da acumulação."
+        ]
+      ]
+    ],
+    "expected_answer": "O poço Anhangá está ligado à Concessão POT-M-762_R15.",
+    "tipo_inferencia": "espacial_administrativa",
+    "source": [
+      "https://agencia.petrobras.com.br/w/negocio/petrobras-descobre-petroleo-em-aguas-ultra-profundas-da-bacia-potiguar"
+    ]
+  },
+  {
+    "id": 84,
+    "question": "Qual interpretação deve ser feita quando perfis elétricos e amostras de óleo confirmam reservatórios turbidíticos portadores de petróleo?",
+    "context": [
+      [
+        "Petrobras descobre petróleo em águas ultraprofundas da Bacia Potiguar | Agência Petrobras",
+        [
+          "A constatação de reservatórios turbidíticos de idade Albiana portador de petróleo é inédita na Bacia Potiguar e foi realizada através de perfis elétricos e amostras de óleo, que serão posteriormente caracterizados por meio de análises de laboratório.",
+          "A Petrobras dará continuidade às atividades exploratórias na Concessão POT-M-762_R15, visando avaliar a qualidade dos reservatórios, as características do óleo e a viabilidade técnico-comercial da acumulação."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "A análise de reservatórios no mais simples nível requer uma avaliação da sua porosidade (para calcular o volume de hidrocarbonetos in situ) e sua permeabilidade (para calcular quão facilmente os hidrocarbonetos irão fluir fora dele)."
+        ]
+      ]
+    ],
+    "expected_answer": "A acumulação envolve reservatórios turbidíticos com hidrocarboneto, cuja qualidade e óleo ainda precisam de caracterização complementar.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://agencia.petrobras.com.br/w/negocio/petrobras-descobre-petroleo-em-aguas-ultra-profundas-da-bacia-potiguar",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 85,
+    "question": "Qual entidade conecta Anhangá à Margem Equatorial brasileira?",
+    "context": [
+      [
+        "Petrobras descobre petróleo em águas ultraprofundas da Bacia Potiguar | Agência Petrobras",
+        [
+          "O poço 1-BRSA-1390-RNS (Anhangá) está situado próximo à fronteira entre os estados do Ceará e do Rio Grande do Norte, a cerca de 190 km de Fortaleza e 250 km de Natal, em profundidade d’água de 2.196 metros, na Margem Equatorial brasileira."
+        ]
+      ],
+      [
+        "Plataforma continental do Brasil | Wikipédia",
+        [
+          "A maior parte da margem continental brasileira é uma clássica margem divergente formada pela ruptura do supercontinente Gondwana e o distanciamento das placas Sul-Americana e Africana."
+        ]
+      ]
+    ],
+    "expected_answer": "O poço 1-BRSA-1390-RNS, chamado Anhangá, conecta a descoberta à Margem Equatorial brasileira.",
+    "tipo_inferencia": "espacial",
+    "source": [
+      "https://agencia.petrobras.com.br/w/negocio/petrobras-descobre-petroleo-em-aguas-ultra-profundas-da-bacia-potiguar",
+      "https://pt.wikipedia.org/wiki/Plataforma_continental_do_Brasil"
+    ]
+  },
+  {
+    "id": 86,
+    "question": "Por que a localização de Anhangá exige interpretação em águas ultraprofundas?",
+    "context": [
+      [
+        "Petrobras descobre petróleo em águas ultraprofundas da Bacia Potiguar | Agência Petrobras",
+        [
+          "A Petrobras descobriu uma acumulação de petróleo em águas ultraprofundas da Bacia Potiguar, no poço exploratório Anhangá, da Concessão POT-M-762_R15.",
+          "O poço 1-BRSA-1390-RNS (Anhangá) está situado próximo à fronteira entre os estados do Ceará e do Rio Grande do Norte, a cerca de 190 km de Fortaleza e 250 km de Natal, em profundidade d’água de 2.196 metros, na Margem Equatorial brasileira."
+        ]
+      ],
+      [
+        "Quem Somos | Comunica Bacia de Santos | Petrobras",
+        [
+          "Em uma região de águas ultraprofundas, ocorre o desenvolvimento de reservatórios carbonáticos abaixo de uma camada de sal com até dois quilômetros de espessura, conhecida como pré-sal, caracterizando uma das maiores províncias de petróleo do mundo, apresentando acumulações de óleo pesado, óleo leve e gás não associado."
+        ]
+      ]
+    ],
+    "expected_answer": "Porque o poço está em profundidade d’água de 2.196 metros, em contexto de águas ultraprofundas da Bacia Potiguar.",
+    "tipo_inferencia": "espacial",
+    "source": [
+      "https://agencia.petrobras.com.br/w/negocio/petrobras-descobre-petroleo-em-aguas-ultra-profundas-da-bacia-potiguar",
+      "https://comunicabaciadesantos.petrobras.com.br/quem-somos"
+    ]
+  },
+  {
+    "id": 87,
+    "question": "Que dado indica que os turbiditos de Anhangá ainda precisam de caracterização petrofísica e de fluido?",
+    "context": [
+      [
+        "Petrobras descobre petróleo em águas ultraprofundas da Bacia Potiguar | Agência Petrobras",
+        [
+          "A constatação de reservatórios turbidíticos de idade Albiana portador de petróleo é inédita na Bacia Potiguar e foi realizada através de perfis elétricos e amostras de óleo, que serão posteriormente caracterizados por meio de análises de laboratório.",
+          "A Petrobras dará continuidade às atividades exploratórias na Concessão POT-M-762_R15, visando avaliar a qualidade dos reservatórios, as características do óleo e a viabilidade técnico-comercial da acumulação."
+        ]
+      ],
+      [
+        "Campo de Búzios: a jornada desde a caracterização dos reservatórios ao início do desenvolvimento da produção | Universidade Petrobras",
+        [
+          "Os desafios de caracterização desses reservatórios envolvem a integração dos estudos de sísmica, dados de poços, petrografia, interpretações de processos deposicionais e diagenéticos, assim como os resultados de testes de produtividade e injetividades das rochas."
+        ]
+      ]
+    ],
+    "expected_answer": "A notícia informa que os reservatórios e o óleo serão caracterizados por análises de laboratório e avaliação da qualidade dos reservatórios.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://agencia.petrobras.com.br/w/negocio/petrobras-descobre-petroleo-em-aguas-ultra-profundas-da-bacia-potiguar",
+      "https://publicacoesup.petrobras.com.br/peld/catalog/book/12/chapter/23"
+    ]
+  },
+  {
+    "id": 88,
+    "question": "Qual componente da Bacia de Campos conecta rochas geradoras e reservatórios em um sistema petrolífero?",
+    "context": [
+      [
+        "Bacia de Campos | Wikipédia",
+        [
+          "As rochas geradoras de hidrocarbonetos da Bacia de Campos correspondem a folhelhos orgânicos.",
+          "As principais rochas reservatório da bacia são arenitos turbidíticos, depositados desde o andar geológico Albiano até o Mioceno, seguidos de calcarenitos, depositados durante o andar Albiano, calcáreos de origem microbial, principalmente cianobactérias, depositadas durante o andar Aptiano e de coquinas, rochas formadas por restos de carapaças de crustáceos, e que foram depositadas durante o andar Barremiano."
+        ]
+      ],
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "Para que estas acumulações ocorram, necessita-se de rochas geradoras maduras, rocha reservatório, rocha selante e a sobrecarga.",
+          "Além da presença destas rochas, dois processos geológicos são fundamentais: a formação de trapas e a geração, migração e acumulação de hidrocarbonetos."
+        ]
+      ]
+    ],
+    "expected_answer": "Os folhelhos orgânicos funcionam como geradores e os arenitos turbidíticos, calcarenitos, calcáreos microbiais e coquinas funcionam como reservatórios.",
+    "tipo_inferencia": "entidade_funcao",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Bacia_de_Campos",
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero"
+    ]
+  },
+  {
+    "id": 89,
+    "question": "Qual rocha capeadora comum poderia reter hidrocarbonetos gerados por folhelhos orgânicos?",
+    "context": [
+      [
+        "Petróleo | SGB",
+        [
+          "Folhelhos e camadas de sal são rochas capeadoras comuns."
+        ]
+      ],
+      [
+        "Bacia de Campos | Wikipédia",
+        [
+          "As rochas geradoras de hidrocarbonetos da Bacia de Campos correspondem a folhelhos orgânicos."
+        ]
+      ]
+    ],
+    "expected_answer": "Folhelhos ou camadas de sal poderiam atuar como rochas capeadoras comuns, retendo hidrocarbonetos migrados de rochas geradoras.",
+    "tipo_inferencia": "selo_e_retencao",
+    "source": [
+      "https://www.sgb.gov.br/petroleo",
+      "https://pt.wikipedia.org/wiki/Bacia_de_Campos"
+    ]
+  },
+  {
+    "id": 90,
+    "question": "Por que uma falha pode ser relevante para acumulações petrolíferas?",
+    "context": [
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "Uma armadilha estrutural consiste de configurações geométricas de estruturas de rochas que acumulam o petróleo, não permitindo sua fuga.",
+          "Podem ser domos salinos, flancos de homoclinais ou ainda, diversos tipos de superposição de dobras e falhas."
+        ]
+      ],
+      [
+        "Petróleo | SGB",
+        [
+          "Mas, o óleo pode ser contido também, em sua ascensão, por uma deformação da rocha, caso em que se diz haver uma trapa estrutural."
+        ]
+      ]
+    ],
+    "expected_answer": "Falhas podem participar de armadilhas estruturais que acumulam petróleo, impedindo sua fuga quando associadas a reservatório e selo.",
+    "tipo_inferencia": "estrutural",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero",
+      "https://www.sgb.gov.br/petroleo"
+    ]
+  },
+  {
+    "id": 91,
+    "question": "Que elementos de Campos indicam uma sucessão de reservatórios com idades diferentes?",
+    "context": [
+      [
+        "Bacia de Campos | Wikipédia",
+        [
+          "As principais rochas reservatório da bacia são arenitos turbidíticos, depositados desde o andar geológico Albiano até o Mioceno, seguidos de calcarenitos, depositados durante o andar Albiano, calcáreos de origem microbial, principalmente cianobactérias, depositadas durante o andar Aptiano e de coquinas, rochas formadas por restos de carapaças de crustáceos, e que foram depositadas durante o andar Barremiano."
+        ]
+      ],
+      [
+        "Como Sabemos a Idade das Rochas? | SGB",
+        [
+          "As rochas sedimentares formam-se pela deposição de sedimentos (cascalho, areia, argila etc.) ao longo do tempo, trazidos por agentes transportadores, como as águas de um rio, o vento e as geleiras.",
+          "Esse material vai sendo empilhado e, naturalmente, quanto mais embaixo ele estiver na pilha mais antigo ele é."
+        ]
+      ]
+    ],
+    "expected_answer": "Arenitos turbidíticos do Albiano ao Mioceno, calcarenitos albiano, calcáreos microbiais aptianos e coquinas barremianas indicam reservatórios de idades distintas.",
+    "tipo_inferencia": "temporal_estratigrafica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Bacia_de_Campos",
+      "https://www.sgb.gov.br/como-sabemos-a-idade-das-rochas"
+    ]
+  },
+  {
+    "id": 92,
+    "question": "Qual reservatório da Bacia de Campos combina litologia siliciclástica e ampla faixa temporal?",
+    "context": [
+      [
+        "Bacia de Campos | Wikipédia",
+        [
+          "As principais rochas reservatório da bacia são arenitos turbidíticos, depositados desde o andar geológico Albiano até o Mioceno, seguidos de calcarenitos, depositados durante o andar Albiano, calcáreos de origem microbial, principalmente cianobactérias, depositadas durante o andar Aptiano e de coquinas, rochas formadas por restos de carapaças de crustáceos, e que foram depositadas durante o andar Barremiano."
+        ]
+      ],
+      [
+        "Rochas | SGB",
+        [
+          "Rochas sedimentares detríticas (também chamadas de clásticas) são aquelas formadas pela deposição de fragmentos de outras rochas (ígneas, metamórficas ou mesmo sedimentares).",
+          "Cascalhos formam conglomerados e brechas, areias formam arenitos, siltes formam siltitos e argilas formam argilitos."
+        ]
+      ]
+    ],
+    "expected_answer": "Os arenitos turbidíticos combinam litologia siliciclástica e deposição do Albiano ao Mioceno.",
+    "tipo_inferencia": "temporal_estratigrafica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Bacia_de_Campos",
+      "https://www.sgb.gov.br/rochas"
+    ]
+  },
+  {
+    "id": 93,
+    "question": "Que conclusão pode ser feita ao relacionar turbiditos e Formação Carapebus?",
+    "context": [
+      [
+        "Bacia de Campos | Wikipédia",
+        [
+          "Turbiditos Formação Carapebus K. e Terciano"
+        ]
+      ],
+      [
+        "Turbidito | Wikipédia",
+        [
+          "As sequências turbidíticas são muito procuradas pelos geólogos de petróleo por constituírem bons reservatórios para hidrocarbonetos."
+        ]
+      ]
+    ],
+    "expected_answer": "A Formação Carapebus deve ser tratada como unidade associada a reservatórios turbidíticos na Bacia de Campos.",
+    "tipo_inferencia": "entidade_estratigrafica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Bacia_de_Campos",
+      "https://pt.wikipedia.org/wiki/Turbidito"
+    ]
+  },
+  {
+    "id": 94,
+    "question": "Como a sucessão arenito/pelito ajuda a interpretar turbiditos como reservatórios?",
+    "context": [
+      [
+        "Turbidito | Wikipédia",
+        [
+          "Para a maioria dos geólogos, um turbidito é uma camada com gradação grano-classificada consistindo num conjunto de estratos arenito/pelito que foram depositados por corrente de turbidez e é comumente coberta por pelitos hemipelágicos contendo assembléia de fósseis de águas profundas.",
+          "Os depósitos se formam por fluxos hiperpicnais concentrados, constituindo sucessões de estratos sedimentares arenosos e pelágicos bastante espessos, num curto período de tempo geológico."
+        ]
+      ],
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "Geralmente são compostas por granulometria de areia a seixo como arenitos, calcarenitos ou conglomerados.",
+          "As rochas selantes são rochas de baixa permeabilidade, como folhelhos, siltitos e calciculitos, de forma que impedem o escape dos fluidos da rocha reservatório."
+        ]
+      ]
+    ],
+    "expected_answer": "A presença de estratos arenosos em turbiditos favorece a função de reservatório, enquanto pelitos podem atuar como níveis mais finos associados.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Turbidito",
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero"
+    ]
+  },
+  {
+    "id": 95,
+    "question": "Qual campo conceitual permite conectar folhelhos, arenitos turbidíticos, coquinas e sal em uma mesma explicação?",
+    "context": [
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "Sistema petrolífero é um modelo que engloba todos os elementos e processos geológicos necessários à existência de acumulações de óleo e gás.",
+          "Para que estas acumulações ocorram, necessita-se de rochas geradoras maduras, rocha reservatório, rocha selante e a sobrecarga.",
+          "Além da presença destas rochas, dois processos geológicos são fundamentais: a formação de trapas e a geração, migração e acumulação de hidrocarbonetos."
+        ]
+      ],
+      [
+        "Bacia de Campos | Wikipédia",
+        [
+          "As rochas geradoras de hidrocarbonetos da Bacia de Campos correspondem a folhelhos orgânicos.",
+          "As principais rochas reservatório da bacia são arenitos turbidíticos, depositados desde o andar geológico Albiano até o Mioceno, seguidos de calcarenitos, depositados durante o andar Albiano, calcáreos de origem microbial, principalmente cianobactérias, depositadas durante o andar Aptiano e de coquinas, rochas formadas por restos de carapaças de crustáceos, e que foram depositadas durante o andar Barremiano."
+        ]
+      ]
+    ],
+    "expected_answer": "O conceito de sistema petrolífero permite conectar geradores, reservatórios, selos, trapas, migração e acumulação em uma mesma explicação geológica.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero",
+      "https://pt.wikipedia.org/wiki/Bacia_de_Campos"
+    ]
+  },
+  {
+    "id": 96,
+    "question": "Qual condição transforma uma rocha em reservatório adequado para hidrocarbonetos?",
+    "context": [
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "O reservatório é uma unidade litológica porosa e permeável ou conjunto de unidade que retém as reservas de hidrocarbonetos.",
+          "A análise de reservatórios no mais simples nível requer uma avaliação da sua porosidade (para calcular o volume de hidrocarbonetos in situ) e sua permeabilidade (para calcular quão facilmente os hidrocarbonetos irão fluir fora dele)."
+        ]
+      ],
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "A condição para o armazenamento do petróleo nas rochas reservatório é a porosidade de tais rochas, que variam de 5% a 35%, tendo em média de 15% a 30%."
+        ]
+      ]
+    ],
+    "expected_answer": "A rocha precisa apresentar porosidade para armazenar e permeabilidade para permitir o fluxo dos hidrocarbonetos.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo",
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero"
+    ]
+  },
+  {
+    "id": 97,
+    "question": "Que tipo de rocha fina é frequentemente associado à geração de petróleo?",
+    "context": [
+      [
+        "Petróleo | SGB",
+        [
+          "A rocha onde o petróleo se forma é chamada de rocha geradora.",
+          "As rochas geradoras mais comuns são folhelhos negros."
+        ]
+      ],
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "Para que estas acumulações ocorram, necessita-se de rochas geradoras maduras, rocha reservatório, rocha selante e a sobrecarga."
+        ]
+      ]
+    ],
+    "expected_answer": "Folhelhos negros são frequentemente associados à função de rocha geradora de petróleo.",
+    "tipo_inferencia": "entidade_funcao",
+    "source": [
+      "https://www.sgb.gov.br/petroleo",
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero"
+    ]
+  },
+  {
+    "id": 98,
+    "question": "Que característica torna folhelhos e sal adequados como cobertura de acumulações?",
+    "context": [
+      [
+        "Petróleo | SGB",
+        [
+          "Folhelhos e camadas de sal são rochas capeadoras comuns."
+        ]
+      ],
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "As rochas selantes são rochas de baixa permeabilidade, como folhelhos, siltitos e calciculitos, de forma que impedem o escape dos fluidos da rocha reservatório.",
+          "Geralmente estas rochas situam-se acima do reservatório."
+        ]
+      ]
+    ],
+    "expected_answer": "A baixa permeabilidade associada a folhelhos e camadas de sal permite que atuem como rochas capeadoras ou selantes.",
+    "tipo_inferencia": "selo_e_retencao",
+    "source": [
+      "https://www.sgb.gov.br/petroleo",
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero"
+    ]
+  },
+  {
+    "id": 99,
+    "question": "Qual processo move hidrocarbonetos da rocha geradora até o reservatório?",
+    "context": [
+      [
+        "Petróleo | SGB",
+        [
+          "A rocha onde o petróleo se forma é chamada de rocha geradora.",
+          "Dela, ele migra para cima até ficar aprisionado na rocha reservatório (se não chegar até à superfície), de onde é extraído."
+        ]
+      ],
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "Os caminhos de migração constituem-se das fraturas, falhas, rochas carreadoras (rochas com porosidade e permeabilidade suficientes para permitir o transporte).",
+          "O petróleo gerado percorre estes caminhos até encontrar uma trapa."
+        ]
+      ]
+    ],
+    "expected_answer": "A migração move os hidrocarbonetos da rocha geradora até a rocha reservatório ou até uma trapa.",
+    "tipo_inferencia": "processual_migracao",
+    "source": [
+      "https://www.sgb.gov.br/petroleo",
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero"
+    ]
+  },
+  {
+    "id": 100,
+    "question": "Que entidade impede que hidrocarbonetos continuem migrando até a superfície?",
+    "context": [
+      [
+        "Petróleo do Pré-Sal | SGB",
+        [
+          "Com isso, o petróleo migra para cima através dos poros existentes nas rochas, até encontrar algo que o impeça de continuar se deslocando.",
+          "Essa barreira, chamada de trapa, pode ser uma rocha impermeável, como uma camada de sal."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "A 'trapa é a característica estratigráfica ou estrutural, que garante a justaposição do reservatório e selo de tal forma que os hidrocarbonetos permanecem presos no subsolo, em vez de fugir (devido à sua natural flutuabilidade) e se perderem."
+        ]
+      ]
+    ],
+    "expected_answer": "Uma trapa associada a selo ou rocha impermeável impede a continuidade da migração até a superfície.",
+    "tipo_inferencia": "selo_e_retencao",
+    "source": [
+      "https://www.sgb.gov.br/petroleo-do-pre-sal",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 101,
+    "question": "Qual arranjo explica a acumulação de petróleo quando uma falha justapõe reservatório e selo?",
+    "context": [
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "Uma armadilha estrutural consiste de configurações geométricas de estruturas de rochas que acumulam o petróleo, não permitindo sua fuga.",
+          "Podem ser domos salinos, flancos de homoclinais ou ainda, diversos tipos de superposição de dobras e falhas."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "A 'trapa é a característica estratigráfica ou estrutural, que garante a justaposição do reservatório e selo de tal forma que os hidrocarbonetos permanecem presos no subsolo, em vez de fugir (devido à sua natural flutuabilidade) e se perderem."
+        ]
+      ]
+    ],
+    "expected_answer": "Trata-se de uma armadilha estrutural, na qual a geometria das rochas favorece a retenção do petróleo.",
+    "tipo_inferencia": "estrutural",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 102,
+    "question": "Que propriedade permite diferenciar reservatórios de selos em uma descrição de bacia?",
+    "context": [
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "O reservatório é uma unidade litológica porosa e permeável ou conjunto de unidade que retém as reservas de hidrocarbonetos.",
+          "O selo, ou rocha selante, é uma unidade com baixa permeabilidade que impede o escape de hidrocarbonetos da rocha reservatório."
+        ]
+      ],
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "A condição para o armazenamento do petróleo nas rochas reservatório é a porosidade de tais rochas, que variam de 5% a 35%, tendo em média de 15% a 30%.",
+          "As rochas selantes são rochas de baixa permeabilidade, como folhelhos, siltitos e calciculitos, de forma que impedem o escape dos fluidos da rocha reservatório."
+        ]
+      ]
+    ],
+    "expected_answer": "Reservatórios são porosos e permeáveis; selos têm baixa permeabilidade e impedem o escape dos fluidos.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo",
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero"
+    ]
+  },
+  {
+    "id": 103,
+    "question": "Qual sequência vertical de fluidos é esperada em uma rocha reservatório segundo o SGB?",
+    "context": [
+      [
+        "Petróleo | SGB",
+        [
+          "Na rocha reservatório, é comum haver água salgada, acima dela o petróleo e acima do petróleo, gás natural."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "O reservatório é uma unidade litológica porosa e permeável ou conjunto de unidade que retém as reservas de hidrocarbonetos."
+        ]
+      ]
+    ],
+    "expected_answer": "A organização esperada é água salgada abaixo, petróleo acima da água e gás natural acima do petróleo.",
+    "tipo_inferencia": "espacial",
+    "source": [
+      "https://www.sgb.gov.br/petroleo",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 104,
+    "question": "Que método geofísico é central para pesquisar estruturas acumuladoras de hidrocarbonetos?",
+    "context": [
+      [
+        "Petróleo | Wikipédia",
+        [
+          "São efetuados estudos das potencialidades das estruturas acumuladoras (armadilhas ou trapas), principalmente através de sísmica que é o principal método geofísico para a pesquisa dos hidrocarbonetos."
+        ]
+      ],
+      [
+        "Petróleo | SGB",
+        [
+          "Isso tudo define se existem, na área estudada, estruturas geológicas favoráveis à concentração de petróleo."
+        ]
+      ]
+    ],
+    "expected_answer": "A sísmica é o principal método geofísico citado para pesquisar estruturas acumuladoras, armadilhas ou trapas.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Petr%C3%B3leo",
+      "https://www.sgb.gov.br/petroleo"
+    ]
+  },
+  {
+    "id": 105,
+    "question": "Que estudos ajudam a reconhecer a extensão de uma rocha reservatório?",
+    "context": [
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "A existência de uma rocha reservatório (tipicamente, arenitos e calcários fraturados) é determinada através de uma combinação de estudos regionais (i.e. análises de outros poços na área), estratigrafia e sedimentologia (para quantificar o padrão e a extensão da sedimentação) e interpretação sísmica."
+        ]
+      ],
+      [
+        "Geologia | SGB",
+        [
+          "Tem como foco principal os estudos relacionados à evolução das bacias sedimentares, cuja compreensão requer estudos multidisciplinares de sedimentologia, estratigrafia, paleontologia, geofísica, geologia estrutural e geocronologia."
+        ]
+      ]
+    ],
+    "expected_answer": "Estratigrafia, sedimentologia, análises de poços e interpretação sísmica ajudam a reconhecer o padrão e a extensão da rocha reservatório.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo",
+      "https://www.sgb.gov.br/geologia"
+    ]
+  },
+  {
+    "id": 106,
+    "question": "Que classe de rocha sedimentar está associada a arenitos, siltitos e argilitos?",
+    "context": [
+      [
+        "Rochas | SGB",
+        [
+          "Rochas sedimentares detríticas (também chamadas de clásticas) são aquelas formadas pela deposição de fragmentos de outras rochas (ígneas, metamórficas ou mesmo sedimentares).",
+          "Conforme o diâmetro dos grãos desses sedimentos, eles podem ser, do maior para o menor: cascalho, areia, silte ou argila (conforme tabela a seguir).",
+          "Cascalhos formam conglomerados e brechas, areias formam arenitos, siltes formam siltitos e argilas formam argilitos."
+        ]
+      ],
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "Geralmente são compostas por granulometria de areia a seixo como arenitos, calcarenitos ou conglomerados."
+        ]
+      ]
+    ],
+    "expected_answer": "A classe detrítica ou clástica está associada à deposição de fragmentos e inclui arenitos, siltitos e argilitos conforme o tamanho dos grãos.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://www.sgb.gov.br/rochas",
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero"
+    ]
+  },
+  {
+    "id": 107,
+    "question": "Como areia e arenito se conectam em descrições sedimentares?",
+    "context": [
+      [
+        "Rochas | SGB",
+        [
+          "Conforme o diâmetro dos grãos desses sedimentos, eles podem ser, do maior para o menor: cascalho, areia, silte ou argila (conforme tabela a seguir).",
+          "Cascalhos formam conglomerados e brechas, areias formam arenitos, siltes formam siltitos e argilas formam argilitos."
+        ]
+      ],
+      [
+        "Turbidito | Wikipédia",
+        [
+          "Para a maioria dos geólogos, um turbidito é uma camada com gradação grano-classificada consistindo num conjunto de estratos arenito/pelito que foram depositados por corrente de turbidez e é comumente coberta por pelitos hemipelágicos contendo assembléia de fósseis de águas profundas."
+        ]
+      ]
+    ],
+    "expected_answer": "Areia forma arenitos, então depósitos arenosos podem originar rochas sedimentares do tipo arenito.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://www.sgb.gov.br/rochas",
+      "https://pt.wikipedia.org/wiki/Turbidito"
+    ]
+  },
+  {
+    "id": 108,
+    "question": "Que litologia tende a ser compatível com reservatórios comuns formados por grãos de areia a seixo?",
+    "context": [
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "A condição para o armazenamento do petróleo nas rochas reservatório é a porosidade de tais rochas, que variam de 5% a 35%, tendo em média de 15% a 30%.",
+          "Geralmente são compostas por granulometria de areia a seixo como arenitos, calcarenitos ou conglomerados."
+        ]
+      ],
+      [
+        "Rochas | SGB",
+        [
+          "Cascalhos formam conglomerados e brechas, areias formam arenitos, siltes formam siltitos e argilas formam argilitos."
+        ]
+      ]
+    ],
+    "expected_answer": "Arenitos, calcarenitos e conglomerados são compatíveis com reservatórios comuns formados por granulometria de areia a seixo.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero",
+      "https://www.sgb.gov.br/rochas"
+    ]
+  },
+  {
+    "id": 109,
+    "question": "Que entidade deve ser inferida quando o contexto menciona baixa permeabilidade acima do reservatório?",
+    "context": [
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "As rochas selantes são rochas de baixa permeabilidade, como folhelhos, siltitos e calciculitos, de forma que impedem o escape dos fluidos da rocha reservatório.",
+          "Geralmente estas rochas situam-se acima do reservatório."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "O selo, ou rocha selante, é uma unidade com baixa permeabilidade que impede o escape de hidrocarbonetos da rocha reservatório."
+        ]
+      ]
+    ],
+    "expected_answer": "Deve-se inferir uma rocha selante, pois sua baixa permeabilidade impede o escape dos hidrocarbonetos do reservatório.",
+    "tipo_inferencia": "ontologica_entidade_funcao",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 110,
+    "question": "Que entidade deve ser inferida quando o contexto menciona porosidade, permeabilidade e retenção de hidrocarbonetos?",
+    "context": [
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "O reservatório é uma unidade litológica porosa e permeável ou conjunto de unidade que retém as reservas de hidrocarbonetos.",
+          "A análise de reservatórios no mais simples nível requer uma avaliação da sua porosidade (para calcular o volume de hidrocarbonetos in situ) e sua permeabilidade (para calcular quão facilmente os hidrocarbonetos irão fluir fora dele)."
+        ]
+      ],
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "A condição para o armazenamento do petróleo nas rochas reservatório é a porosidade de tais rochas, que variam de 5% a 35%, tendo em média de 15% a 30%."
+        ]
+      ]
+    ],
+    "expected_answer": "Deve-se inferir uma rocha reservatório, pois essa função depende de porosidade, permeabilidade e capacidade de reter hidrocarbonetos.",
+    "tipo_inferencia": "ontologica_entidade_funcao",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo",
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero"
+    ]
+  },
+  {
+    "id": 111,
+    "question": "Qual interpretação é necessária quando um texto menciona geração, migração, trapa e selo?",
+    "context": [
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "Sistema petrolífero é um modelo que engloba todos os elementos e processos geológicos necessários à existência de acumulações de óleo e gás.",
+          "Para que estas acumulações ocorram, necessita-se de rochas geradoras maduras, rocha reservatório, rocha selante e a sobrecarga.",
+          "Além da presença destas rochas, dois processos geológicos são fundamentais: a formação de trapas e a geração, migração e acumulação de hidrocarbonetos.",
+          "Todas estas condições devem ocorrer de forma sincronizada em relação ao tempo geológico."
+        ]
+      ],
+      [
+        "Petróleo | SGB",
+        [
+          "A rocha onde o petróleo se forma é chamada de rocha geradora.",
+          "Dela, ele migra para cima até ficar aprisionado na rocha reservatório (se não chegar até à superfície), de onde é extraído.",
+          "Folhelhos e camadas de sal são rochas capeadoras comuns."
+        ]
+      ]
+    ],
+    "expected_answer": "O texto descreve os componentes e processos de um sistema petrolífero capaz de formar acumulações de óleo e gás.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero",
+      "https://www.sgb.gov.br/petroleo"
+    ]
+  },
+  {
+    "id": 112,
+    "question": "Por que a ausência de sincronismo pode comprometer uma acumulação de hidrocarbonetos?",
+    "context": [
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "Além da presença destas rochas, dois processos geológicos são fundamentais: a formação de trapas e a geração, migração e acumulação de hidrocarbonetos.",
+          "Todas estas condições devem ocorrer de forma sincronizada em relação ao tempo geológico."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "Finalmente, estudos de migração revelam informação sobre como hidrocarbonetos movem-se da fonte ao reservatório e ajudam a quantificar a fonte (ou \"a cozinha\") dos hidrocarbonetos em uma área em particular."
+        ]
+      ]
+    ],
+    "expected_answer": "Porque geração, migração, reservatório e trapeamento precisam ocorrer em tempo geológico favorável para que a acumulação seja preservada.",
+    "tipo_inferencia": "temporal_estratigrafica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 113,
+    "question": "Que informação os fragmentos de rocha trazidos durante a sondagem ajudam a registrar?",
+    "context": [
+      [
+        "Petróleo | SGB",
+        [
+          "a lama de sondagem",
+          "fragmentos de rocha",
+          "para saber que tipo de rocha a coroa está atravessando.",
+          "anotando a profundidade de onde vieram."
+        ]
+      ]
+    ],
+    "expected_answer": "Eles permitem reconhecer o tipo de rocha atravessada pela coroa e registrar a profundidade de origem dos fragmentos.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://www.sgb.gov.br/petroleo"
+    ]
+  },
+  {
+    "id": 114,
+    "question": "Qual propriedade permite estimar quão facilmente hidrocarbonetos fluem para fora do reservatório?",
+    "context": [
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "A análise de reservatórios no mais simples nível requer uma avaliação da sua porosidade (para calcular o volume de hidrocarbonetos in situ) e sua permeabilidade (para calcular quão facilmente os hidrocarbonetos irão fluir fora dele)."
+        ]
+      ],
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "A condição para o armazenamento do petróleo nas rochas reservatório é a porosidade de tais rochas, que variam de 5% a 35%, tendo em média de 15% a 30%."
+        ]
+      ]
+    ],
+    "expected_answer": "A permeabilidade permite estimar a facilidade de fluxo dos hidrocarbonetos para fora do reservatório.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo",
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero"
+    ]
+  },
+  {
+    "id": 115,
+    "question": "Qual propriedade permite estimar o volume de hidrocarbonetos no reservatório?",
+    "context": [
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "A análise de reservatórios no mais simples nível requer uma avaliação da sua porosidade (para calcular o volume de hidrocarbonetos in situ) e sua permeabilidade (para calcular quão facilmente os hidrocarbonetos irão fluir fora dele)."
+        ]
+      ],
+      [
+        "Rochas | SGB",
+        [
+          "Possuem porosidade e permeabilidade, uma marcante estratificação e baixa resistência mecânica."
+        ]
+      ]
+    ],
+    "expected_answer": "A porosidade permite estimar o volume de hidrocarbonetos in situ em uma rocha reservatório.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo",
+      "https://www.sgb.gov.br/rochas"
+    ]
+  },
+  {
+    "id": 116,
+    "question": "Que interpretação deve ser feita quando o contexto cita lagos, deltas e bacias oceânicas como ambientes de deposição?",
+    "context": [
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "O ambiente de deposição consiste principalmente de lagos, deltas e bacias oceânicas.",
+          "O tipo de petróleo gerado depende do tipo de matéria orgânica: vegetais terrestres carreados tendem a gerar gás, enquanto que os plânctons tendem a gerar óleo."
+        ]
+      ],
+      [
+        "Petróleo do Pré-Sal | SGB",
+        [
+          "Ele forma-se em uma rocha, chamada rocha geradora a partir de restos orgânicos, sobretudo micro-organismos animais.",
+          "Durante milhões de anos esses detritos orgânicos sofrem transformações, que levam a um aumento da temperatura e da pressão interna, o que acaba rompendo a rocha."
+        ]
+      ]
+    ],
+    "expected_answer": "Esses ambientes podem preservar matéria orgânica associada à geração de petróleo, dependendo do tipo de matéria orgânica e das condições de soterramento.",
+    "tipo_inferencia": "ambiente_deposicional",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero",
+      "https://www.sgb.gov.br/petroleo-do-pre-sal"
+    ]
+  },
+  {
+    "id": 117,
+    "question": "Qual entidade conceitual reúne rocha geradora, reservatório, selo e sobrecarga?",
+    "context": [
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "Sistema petrolífero é um modelo que engloba todos os elementos e processos geológicos necessários à existência de acumulações de óleo e gás.",
+          "Para que estas acumulações ocorram, necessita-se de rochas geradoras maduras, rocha reservatório, rocha selante e a sobrecarga."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "A geologia do petróleo trata principalmente da avaliação de sete elementos chave em bacias sedimentares:"
+        ]
+      ]
+    ],
+    "expected_answer": "O sistema petrolífero reúne esses elementos e os processos necessários à acumulação de óleo e gás.",
+    "tipo_inferencia": "ontologica_entidade_funcao",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 118,
+    "question": "Que processo é inferido quando hidrocarbonetos se deslocam por fraturas, falhas ou rochas carreadoras?",
+    "context": [
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "Os caminhos de migração constituem-se das fraturas, falhas, rochas carreadoras (rochas com porosidade e permeabilidade suficientes para permitir o transporte).",
+          "O petróleo gerado percorre estes caminhos até encontrar uma trapa."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "Finalmente, estudos de migração revelam informação sobre como hidrocarbonetos movem-se da fonte ao reservatório e ajudam a quantificar a fonte (ou \"a cozinha\") dos hidrocarbonetos em uma área em particular."
+        ]
+      ]
+    ],
+    "expected_answer": "O processo inferido é a migração dos hidrocarbonetos em direção a um reservatório ou trapa.",
+    "tipo_inferencia": "processual_migracao",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 119,
+    "question": "Que papel os estudos de bacias desempenham antes da perfuração exploratória?",
+    "context": [
+      [
+        "Petróleo | SGB",
+        [
+          "Isso tudo define se existem, na área estudada, estruturas geológicas favoráveis à concentração de petróleo."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "A geologia do petróleo trata principalmente da avaliação de sete elementos chave em bacias sedimentares:"
+        ]
+      ]
+    ],
+    "expected_answer": "Eles avaliam estruturas e condições geológicas favoráveis à concentração de petróleo antes da confirmação por poços exploratórios.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://www.sgb.gov.br/petroleo",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 120,
+    "question": "Qual interpretação liga estratigrafia e sedimentologia à análise de reservatórios?",
+    "context": [
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "A existência de uma rocha reservatório (tipicamente, arenitos e calcários fraturados) é determinada através de uma combinação de estudos regionais (i.e. análises de outros poços na área), estratigrafia e sedimentologia (para quantificar o padrão e a extensão da sedimentação) e interpretação sísmica."
+        ]
+      ],
+      [
+        "Geologia | SGB",
+        [
+          "Tem como foco principal os estudos relacionados à evolução das bacias sedimentares, cuja compreensão requer estudos multidisciplinares de sedimentologia, estratigrafia, paleontologia, geofísica, geologia estrutural e geocronologia."
+        ]
+      ]
+    ],
+    "expected_answer": "Essas disciplinas ajudam a determinar o padrão e a extensão da sedimentação, essenciais para delimitar rochas reservatório.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo",
+      "https://www.sgb.gov.br/geologia"
+    ]
+  },
+  {
+    "id": 121,
+    "question": "Que princípio permite inferir idade relativa em uma pilha de rochas sedimentares?",
+    "context": [
+      [
+        "Como Sabemos a Idade das Rochas? | SGB",
+        [
+          "As rochas sedimentares formam-se pela deposição de sedimentos (cascalho, areia, argila etc.) ao longo do tempo, trazidos por agentes transportadores, como as águas de um rio, o vento e as geleiras.",
+          "Esse material vai sendo empilhado e, naturalmente, quanto mais embaixo ele estiver na pilha mais antigo ele é."
+        ]
+      ],
+      [
+        "Petróleo do Pré-Sal | SGB",
+        [
+          "O prefixo pré-, portanto, refere-se ao tempo, não ao espaço."
+        ]
+      ]
+    ],
+    "expected_answer": "Em uma pilha sedimentar não perturbada, os materiais mais inferiores tendem a ser mais antigos que os superiores.",
+    "tipo_inferencia": "temporal_estratigrafica",
+    "source": [
+      "https://www.sgb.gov.br/como-sabemos-a-idade-das-rochas",
+      "https://www.sgb.gov.br/petroleo-do-pre-sal"
+    ]
+  },
+  {
+    "id": 122,
+    "question": "Que processo transforma sedimentos transportados em camadas sedimentares ao longo do tempo?",
+    "context": [
+      [
+        "Como Sabemos a Idade das Rochas? | SGB",
+        [
+          "As rochas sedimentares formam-se pela deposição de sedimentos (cascalho, areia, argila etc.) ao longo do tempo, trazidos por agentes transportadores, como as águas de um rio, o vento e as geleiras.",
+          "Esse material vai sendo empilhado e, naturalmente, quanto mais embaixo ele estiver na pilha mais antigo ele é."
+        ]
+      ],
+      [
+        "Rochas | SGB",
+        [
+          "Rochas sedimentares detríticas (também chamadas de clásticas) são aquelas formadas pela deposição de fragmentos de outras rochas (ígneas, metamórficas ou mesmo sedimentares)."
+        ]
+      ]
+    ],
+    "expected_answer": "A deposição e o empilhamento de sedimentos transportados por água, vento ou geleiras formam camadas sedimentares ao longo do tempo.",
+    "tipo_inferencia": "processual_deposicional",
+    "source": [
+      "https://www.sgb.gov.br/como-sabemos-a-idade-das-rochas",
+      "https://www.sgb.gov.br/rochas"
+    ]
+  },
+  {
+    "id": 123,
+    "question": "Qual ambiente é descrito como destino final de grande parte dos sedimentos detríticos?",
+    "context": [
+      [
+        "Rochas | SGB",
+        [
+          "O mais extenso e mais duradouro dos ambientes de deposição é o marinho."
+        ]
+      ],
+      [
+        "Turbidito | Wikipédia",
+        [
+          "Turbiditos são depósitos sedimentares originados por correntes de turbidez submarinas, sobretudo em bacias de antepaís (foreland), em ambiente tectônico de margem convergente (ativa)."
+        ]
+      ]
+    ],
+    "expected_answer": "O ambiente marinho é descrito como destino final dos sedimentos e concentra grande parte dos sedimentos detríticos.",
+    "tipo_inferencia": "ambiente_deposicional",
+    "source": [
+      "https://www.sgb.gov.br/rochas",
+      "https://pt.wikipedia.org/wiki/Turbidito"
+    ]
+  },
+  {
+    "id": 124,
+    "question": "Que interpretação conecta fósseis, estratigrafia e idade relativa em bacias sedimentares?",
+    "context": [
+      [
+        "Geologia | SGB",
+        [
+          "evolução das bacias sedimentares",
+          "sedimentologia, estratigrafia, paleontologia"
+        ]
+      ],
+      [
+        "Isto é Geologia! | UFES",
+        [
+          "o significado dos fósseis"
+        ]
+      ],
+      [
+        "Como Sabemos a Idade das Rochas? | SGB",
+        [
+          "quanto mais embaixo ele estiver na pilha mais antigo ele é."
+        ]
+      ]
+    ],
+    "expected_answer": "Fósseis entram como evidência paleontológica, a estratigrafia relaciona as camadas, e camadas mais baixas tendem a ser mais antigas.",
+    "tipo_inferencia": "temporal_estratigrafica",
+    "source": [
+      "https://www.sgb.gov.br/geologia",
+      "https://geologia.ufes.br/isto-%C3%A9-geologia",
+      "https://www.sgb.gov.br/como-sabemos-a-idade-das-rochas"
+    ]
+  },
+  {
+    "id": 125,
+    "question": "Qual entidade deve ser relacionada a depósitos de cloretos, sulfatos, boratos e carbonatos?",
+    "context": [
+      [
+        "Evaporito | Wikipédia",
+        [
+          "Na visão tradicional, evaporito ou depósito salino é uma rocha sedimentar formada pela cristalização e precipitação química dos sais dissolvidos em um meio aquoso, devido a um processo de evaporação.",
+          "Seu precipitado gera depósitos de cloretos, sulfatos, boratos e carbonatos.",
+          "Evaporitos são considerados rochas sedimentares químicas."
+        ]
+      ],
+      [
+        "Petróleo do Pré-Sal | SGB",
+        [
+          "Essa espessa camada de sal, formada principalmente de halita (cloreto de sódio, ou seja, o sal que usamos na comida) e anidrita (sulfato de cálcio) é uma barreira que se formou diretamente sobre a rocha geradora, impedindo que, neste caso, o petróleo migrasse."
+        ]
+      ]
+    ],
+    "expected_answer": "Evaporitos devem ser relacionados a esses depósitos químicos originados pela evaporação de sais dissolvidos.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Evaporito",
+      "https://www.sgb.gov.br/petroleo-do-pre-sal"
+    ]
+  },
+  {
+    "id": 126,
+    "question": "Que bacias aparecem associadas à extensão costeira do grande campo petrolífero do pré-sal brasileiro?",
+    "context": [
+      [
+        "Petróleo | Wikipédia",
+        [
+          "Em 2007 a Petrobrás anunciou a descoberta de petróleo na camada denominada pré-sal, que posteriormente verificou-se ser um grande campo petrolífero, estendendo-se ao longo de 800 km na costa brasileira, do estado do Espírito Santo ao de Santa Catarina, abaixo de espessa camada de sal (rocha salina) e englobando as bacias sedimentares do Espírito Santo, de Campos e de Santos."
+        ]
+      ],
+      [
+        "Pré-sal Bacia de Santos | Comunica Bacia de Santos | Petrobras",
+        [
+          "O pré-sal é uma formação rochosa localizada no subsolo da costa brasileira, que se estende entre os estados de Santa Catarina e Espírito Santo, atingindo uma área de cerca de 800 quilômetros de extensão por 200 quilômetros de largura."
+        ]
+      ]
+    ],
+    "expected_answer": "As bacias do Espírito Santo, de Campos e de Santos aparecem associadas à extensão costeira do pré-sal brasileiro.",
+    "tipo_inferencia": "espacial",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Petr%C3%B3leo",
+      "https://comunicabaciadesantos.petrobras.com.br/pre-sal-bacia-de-santos"
+    ]
+  },
+  {
+    "id": 127,
+    "question": "Qual feição regional contém as duas maiores bacias petrolíferas da costa brasileira?",
+    "context": [
+      [
+        "Plataforma continental do Brasil | Wikipédia",
+        [
+          "O platô de São Paulo, maior platô marginal da costa brasileira, contém as duas maiores bacias petrolíferas (Campos e Santos)."
+        ]
+      ],
+      [
+        "Bacia de Campos | Wikipédia",
+        [
+          "Seu limite, ao sul, com a Bacia de Santos ocorre no Alto de Cabo Frio; ao norte, com a Bacia do Espírito Santo, ocorre no Alto de Vitória."
+        ]
+      ]
+    ],
+    "expected_answer": "O platô de São Paulo contém as duas maiores bacias petrolíferas, Campos e Santos.",
+    "tipo_inferencia": "espacial",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Plataforma_continental_do_Brasil",
+      "https://pt.wikipedia.org/wiki/Bacia_de_Campos"
+    ]
+  },
+  {
+    "id": 128,
+    "question": "Que evento tectônico regional está associado à formação da margem continental brasileira?",
+    "context": [
+      [
+        "Plataforma continental do Brasil | Wikipédia",
+        [
+          "A maior parte da margem continental brasileira é uma clássica margem divergente formada pela ruptura do supercontinente Gondwana e o distanciamento das placas Sul-Americana e Africana."
+        ]
+      ],
+      [
+        "Pré-sal: mergulhe nessa jornada ultraprofunda | Petrobras",
+        [
+          "O pré-sal são rochas sedimentares que foram formadas há mais de 100 milhões de anos com a separação dos atuais continentes sul-americano e africano."
+        ]
+      ]
+    ],
+    "expected_answer": "A ruptura do supercontinente Gondwana e o distanciamento das placas Sul-Americana e Africana estão associados à formação da margem continental brasileira.",
+    "tipo_inferencia": "temporal_estratigrafica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Plataforma_continental_do_Brasil",
+      "https://petrobras.com.br/pre-sal"
+    ]
+  },
+  {
+    "id": 129,
+    "question": "Qual bacia marítima brasileira se estende de Cabo Frio a Florianópolis?",
+    "context": [
+      [
+        "Quem Somos | Comunica Bacia de Santos | Petrobras",
+        [
+          "A Bacia de Santos é a maior bacia sedimentar marítima brasileira, com uma área total de mais de 350 mil quilômetros quadrados e que se estende de Cabo Frio (RJ) a Florianópolis (SC)."
+        ]
+      ],
+      [
+        "Bacia de Campos | Wikipédia",
+        [
+          "Seu limite, ao sul, com a Bacia de Santos ocorre no Alto de Cabo Frio; ao norte, com a Bacia do Espírito Santo, ocorre no Alto de Vitória."
+        ]
+      ]
+    ],
+    "expected_answer": "A Bacia de Santos se estende de Cabo Frio a Florianópolis.",
+    "tipo_inferencia": "espacial",
+    "source": [
+      "https://comunicabaciadesantos.petrobras.com.br/quem-somos",
+      "https://pt.wikipedia.org/wiki/Bacia_de_Campos"
+    ]
+  },
+  {
+    "id": 130,
+    "question": "Qual bacia está situada entre o norte do Rio de Janeiro e o sul do Espírito Santo?",
+    "context": [
+      [
+        "Bacia de Campos | Wikipédia",
+        [
+          "A Bacia de Campos é uma bacia sedimentar brasileira situada na costa norte do estado do Rio de Janeiro, estendendo-se até o sul do estado do Espírito Santo, entre os paralelos 21 e 23 sul."
+        ]
+      ],
+      [
+        "Petróleo | Wikipédia",
+        [
+          "Em 1974 a Petrobrás descobre indícios de petróleo na Bacia de Campos, confirmados com a perfuração do primeiro poço em 1976."
+        ]
+      ]
+    ],
+    "expected_answer": "A Bacia de Campos está situada nessa faixa costeira.",
+    "tipo_inferencia": "espacial",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Bacia_de_Campos",
+      "https://pt.wikipedia.org/wiki/Petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 131,
+    "question": "Por que o pré-sal pode ser descrito como uma unidade de grande extensão regional?",
+    "context": [
+      [
+        "Pré-sal Bacia de Santos | Comunica Bacia de Santos | Petrobras",
+        [
+          "O pré-sal é uma formação rochosa localizada no subsolo da costa brasileira, que se estende entre os estados de Santa Catarina e Espírito Santo, atingindo uma área de cerca de 800 quilômetros de extensão por 200 quilômetros de largura."
+        ]
+      ],
+      [
+        "Petróleo | Wikipédia",
+        [
+          "Em 2007 a Petrobrás anunciou a descoberta de petróleo na camada denominada pré-sal, que posteriormente verificou-se ser um grande campo petrolífero, estendendo-se ao longo de 800 km na costa brasileira, do estado do Espírito Santo ao de Santa Catarina, abaixo de espessa camada de sal (rocha salina) e englobando as bacias sedimentares do Espírito Santo, de Campos e de Santos."
+        ]
+      ]
+    ],
+    "expected_answer": "Porque se estende por centenas de quilômetros na costa brasileira e envolve bacias sedimentares como Espírito Santo, Campos e Santos.",
+    "tipo_inferencia": "espacial",
+    "source": [
+      "https://comunicabaciadesantos.petrobras.com.br/pre-sal-bacia-de-santos",
+      "https://pt.wikipedia.org/wiki/Petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 132,
+    "question": "Como as bacias de Campos e Santos se conectam ao platô de São Paulo?",
+    "context": [
+      [
+        "Plataforma continental do Brasil | Wikipédia",
+        [
+          "O platô de São Paulo, maior platô marginal da costa brasileira, contém as duas maiores bacias petrolíferas (Campos e Santos)."
+        ]
+      ],
+      [
+        "Quem Somos | Comunica Bacia de Santos | Petrobras",
+        [
+          "A Bacia de Santos é a maior bacia sedimentar marítima brasileira, com uma área total de mais de 350 mil quilômetros quadrados e que se estende de Cabo Frio (RJ) a Florianópolis (SC)."
+        ]
+      ]
+    ],
+    "expected_answer": "Campos e Santos são as duas maiores bacias petrolíferas contidas no platô de São Paulo.",
+    "tipo_inferencia": "espacial",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Plataforma_continental_do_Brasil",
+      "https://comunicabaciadesantos.petrobras.com.br/quem-somos"
+    ]
+  },
+  {
+    "id": 133,
+    "question": "Que entidade regional ajuda a explicar o interesse econômico nas bacias sedimentares submarinas brasileiras?",
+    "context": [
+      [
+        "Plataforma continental do Brasil | Wikipédia",
+        [
+          "O interesse econômico na região foi estimulado pelas descobertas de combustíveis fósseis na camada pré-sal das bacias sedimentares submarinas, com as quais o Brasil se tornou o 8.º maior produtor mundial de petróleo bruto e gás associado em 2023."
+        ]
+      ],
+      [
+        "Petróleo | Wikipédia",
+        [
+          "Em 2007 a Petrobrás anunciou a descoberta de petróleo na camada denominada pré-sal, que posteriormente verificou-se ser um grande campo petrolífero, estendendo-se ao longo de 800 km na costa brasileira, do estado do Espírito Santo ao de Santa Catarina, abaixo de espessa camada de sal (rocha salina) e englobando as bacias sedimentares do Espírito Santo, de Campos e de Santos."
+        ]
+      ]
+    ],
+    "expected_answer": "A camada pré-sal nas bacias sedimentares submarinas ajuda a explicar o interesse econômico regional.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Plataforma_continental_do_Brasil",
+      "https://pt.wikipedia.org/wiki/Petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 134,
+    "question": "Como a ruptura continental se conecta à evolução geológica da Bacia de Santos?",
+    "context": [
+      [
+        "Quem Somos | Comunica Bacia de Santos | Petrobras",
+        [
+          "Formada há mais de 130 milhões de anos, após o início da separação de América do Sul e África, a Bacia de Santos é uma típica bacia sedimentar de margem atlântica, apresentando, porém, uma evolução geológica diferente das bacias de Campos e Pelotas, localizadas respectivamente a norte e sul."
+        ]
+      ],
+      [
+        "Plataforma continental do Brasil | Wikipédia",
+        [
+          "A maior parte da margem continental brasileira é uma clássica margem divergente formada pela ruptura do supercontinente Gondwana e o distanciamento das placas Sul-Americana e Africana."
+        ]
+      ]
+    ],
+    "expected_answer": "A Bacia de Santos se formou após o início da separação entre América do Sul e África, dentro da evolução da margem atlântica.",
+    "tipo_inferencia": "temporal_estratigrafica",
+    "source": [
+      "https://comunicabaciadesantos.petrobras.com.br/quem-somos",
+      "https://pt.wikipedia.org/wiki/Plataforma_continental_do_Brasil"
+    ]
+  },
+  {
+    "id": 135,
+    "question": "Qual interpretação resulta da associação entre margem divergente e bacias petrolíferas offshore?",
+    "context": [
+      [
+        "Plataforma continental do Brasil | Wikipédia",
+        [
+          "A maior parte da margem continental brasileira é uma clássica margem divergente formada pela ruptura do supercontinente Gondwana e o distanciamento das placas Sul-Americana e Africana.",
+          "O platô de São Paulo, maior platô marginal da costa brasileira, contém as duas maiores bacias petrolíferas (Campos e Santos)."
+        ]
+      ],
+      [
+        "Quem Somos | Comunica Bacia de Santos | Petrobras",
+        [
+          "Formada há mais de 130 milhões de anos, após o início da separação de América do Sul e África, a Bacia de Santos é uma típica bacia sedimentar de margem atlântica, apresentando, porém, uma evolução geológica diferente das bacias de Campos e Pelotas, localizadas respectivamente a norte e sul."
+        ]
+      ]
+    ],
+    "expected_answer": "A margem divergente formada pela separação continental criou contexto tectono-sedimentar favorável ao desenvolvimento de grandes bacias offshore, como Campos e Santos.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Plataforma_continental_do_Brasil",
+      "https://comunicabaciadesantos.petrobras.com.br/quem-somos"
+    ]
+  },
+  {
+    "id": 136,
+    "question": "Que entidade geográfica marca o limite sul da Bacia de Campos?",
+    "context": [
+      [
+        "Bacia de Campos | Wikipédia",
+        [
+          "Seu limite, ao sul, com a Bacia de Santos ocorre no Alto de Cabo Frio; ao norte, com a Bacia do Espírito Santo, ocorre no Alto de Vitória."
+        ]
+      ],
+      [
+        "Quem Somos | Comunica Bacia de Santos | Petrobras",
+        [
+          "A Bacia de Santos é a maior bacia sedimentar marítima brasileira, com uma área total de mais de 350 mil quilômetros quadrados e que se estende de Cabo Frio (RJ) a Florianópolis (SC)."
+        ]
+      ]
+    ],
+    "expected_answer": "O Alto de Cabo Frio marca o limite sul da Bacia de Campos com a Bacia de Santos.",
+    "tipo_inferencia": "espacial",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Bacia_de_Campos",
+      "https://comunicabaciadesantos.petrobras.com.br/quem-somos"
+    ]
+  },
+  {
+    "id": 137,
+    "question": "Que entidade geográfica marca o limite norte da Bacia de Campos?",
+    "context": [
+      [
+        "Bacia de Campos | Wikipédia",
+        [
+          "Seu limite, ao sul, com a Bacia de Santos ocorre no Alto de Cabo Frio; ao norte, com a Bacia do Espírito Santo, ocorre no Alto de Vitória."
+        ]
+      ],
+      [
+        "Pré-sal Bacia de Santos | Comunica Bacia de Santos | Petrobras",
+        [
+          "O pré-sal é uma formação rochosa localizada no subsolo da costa brasileira, que se estende entre os estados de Santa Catarina e Espírito Santo, atingindo uma área de cerca de 800 quilômetros de extensão por 200 quilômetros de largura."
+        ]
+      ]
+    ],
+    "expected_answer": "O Alto de Vitória marca o limite norte da Bacia de Campos com a Bacia do Espírito Santo.",
+    "tipo_inferencia": "espacial",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Bacia_de_Campos",
+      "https://comunicabaciadesantos.petrobras.com.br/pre-sal-bacia-de-santos"
+    ]
+  },
+  {
+    "id": 138,
+    "question": "Por que a Bacia de Santos é distinta de Campos e Pelotas no contexto citado?",
+    "context": [
+      [
+        "Quem Somos | Comunica Bacia de Santos | Petrobras",
+        [
+          "Formada há mais de 130 milhões de anos, após o início da separação de América do Sul e África, a Bacia de Santos é uma típica bacia sedimentar de margem atlântica, apresentando, porém, uma evolução geológica diferente das bacias de Campos e Pelotas, localizadas respectivamente a norte e sul."
+        ]
+      ],
+      [
+        "Bacia de Campos | Wikipédia",
+        [
+          "Reconhece-se quatro estágios geológicos evolutivos na bacia de Campos, que são pré-rifte (continental), rifte (continental), proto-oceânico (transicional evaporítico) e drift (marinho)."
+        ]
+      ]
+    ],
+    "expected_answer": "Porque, embora seja uma bacia de margem atlântica, o texto afirma que sua evolução geológica é diferente das bacias de Campos e Pelotas.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://comunicabaciadesantos.petrobras.com.br/quem-somos",
+      "https://pt.wikipedia.org/wiki/Bacia_de_Campos"
+    ]
+  },
+  {
+    "id": 139,
+    "question": "Como águas ultraprofundas e reservatórios carbonáticos aparecem associados na Bacia de Santos?",
+    "context": [
+      [
+        "Quem Somos | Comunica Bacia de Santos | Petrobras",
+        [
+          "Em uma região de águas ultraprofundas, ocorre o desenvolvimento de reservatórios carbonáticos abaixo de uma camada de sal com até dois quilômetros de espessura, conhecida como pré-sal, caracterizando uma das maiores províncias de petróleo do mundo, apresentando acumulações de óleo pesado, óleo leve e gás não associado."
+        ]
+      ],
+      [
+        "Pré-sal Bacia de Santos | Comunica Bacia de Santos | Petrobras",
+        [
+          "Tais formações encontram-se a distâncias de cerca de 300 quilômetros da costa brasileira, em profundidades de aproximadamente 5 mil metros, sendo 2 mil de lâmina d’água, mil metros de sedimentos e outros 2 mil de sal."
+        ]
+      ]
+    ],
+    "expected_answer": "Os reservatórios carbonáticos do pré-sal se desenvolvem em região de águas ultraprofundas abaixo de espessa camada salina.",
+    "tipo_inferencia": "espacial",
+    "source": [
+      "https://comunicabaciadesantos.petrobras.com.br/quem-somos",
+      "https://comunicabaciadesantos.petrobras.com.br/pre-sal-bacia-de-santos"
+    ]
+  },
+  {
+    "id": 140,
+    "question": "Qual interpretação liga a sísmica às estruturas acumuladoras mencionadas na pesquisa de petróleo?",
+    "context": [
+      [
+        "Petróleo | Wikipédia",
+        [
+          "São efetuados estudos das potencialidades das estruturas acumuladoras (armadilhas ou trapas), principalmente através de sísmica que é o principal método geofísico para a pesquisa dos hidrocarbonetos."
+        ]
+      ],
+      [
+        "Petróleo | SGB",
+        [
+          "Isso tudo define se existem, na área estudada, estruturas geológicas favoráveis à concentração de petróleo."
+        ]
+      ]
+    ],
+    "expected_answer": "A sísmica ajuda a reconhecer armadilhas ou estruturas acumuladoras capazes de concentrar hidrocarbonetos.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Petr%C3%B3leo",
+      "https://www.sgb.gov.br/petroleo"
+    ]
+  },
+  {
+    "id": 141,
+    "question": "Que característica dos hidrocarbonetos determina sua ocupação em rochas reservatório?",
+    "context": [
+      [
+        "Petróleo | Wikipédia",
+        [
+          "O petróleo e gás natural são encontrados tanto em terra quanto no mar, principalmente nas bacias sedimentares (onde se encontram meios mais porosos - reservatórios), mas também em rochas do embasamento cristalino.",
+          "Os hidrocarbonetos, portanto, ocupam espaços porosos nas rochas, sejam eles entre grãos ou fraturas."
+        ]
+      ],
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "A condição para o armazenamento do petróleo nas rochas reservatório é a porosidade de tais rochas, que variam de 5% a 35%, tendo em média de 15% a 30%."
+        ]
+      ]
+    ],
+    "expected_answer": "Eles ocupam espaços porosos entre grãos ou fraturas, o que conecta sua ocorrência à porosidade da rocha.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Petr%C3%B3leo",
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero"
+    ]
+  },
+  {
+    "id": 142,
+    "question": "Qual interpretação conecta rochas sedimentares porosas e bacias sedimentares à ocorrência de petróleo?",
+    "context": [
+      [
+        "Petróleo | Wikipédia",
+        [
+          "O petróleo e gás natural são encontrados tanto em terra quanto no mar, principalmente nas bacias sedimentares (onde se encontram meios mais porosos - reservatórios), mas também em rochas do embasamento cristalino.",
+          "Os hidrocarbonetos, portanto, ocupam espaços porosos nas rochas, sejam eles entre grãos ou fraturas."
+        ]
+      ],
+      [
+        "Rochas | SGB",
+        [
+          "Possuem porosidade e permeabilidade, uma marcante estratificação e baixa resistência mecânica."
+        ]
+      ]
+    ],
+    "expected_answer": "Bacias sedimentares concentram meios porosos que podem funcionar como reservatórios para petróleo e gás natural.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Petr%C3%B3leo",
+      "https://www.sgb.gov.br/rochas"
+    ]
+  },
+  {
+    "id": 143,
+    "question": "Que ambiente deposicional se conecta aos turbiditos portadores de petróleo em águas profundas?",
+    "context": [
+      [
+        "Turbidito | Wikipédia",
+        [
+          "Turbiditos são depósitos sedimentares originados por correntes de turbidez submarinas, sobretudo em bacias de antepaís (foreland), em ambiente tectônico de margem convergente (ativa).",
+          "Para a maioria dos geólogos, um turbidito é uma camada com gradação grano-classificada consistindo num conjunto de estratos arenito/pelito que foram depositados por corrente de turbidez e é comumente coberta por pelitos hemipelágicos contendo assembléia de fósseis de águas profundas."
+        ]
+      ],
+      [
+        "Petrobras descobre petróleo em águas ultraprofundas da Bacia Potiguar | Agência Petrobras",
+        [
+          "A constatação de reservatórios turbidíticos de idade Albiana portador de petróleo é inédita na Bacia Potiguar e foi realizada através de perfis elétricos e amostras de óleo, que serão posteriormente caracterizados por meio de análises de laboratório."
+        ]
+      ]
+    ],
+    "expected_answer": "Ambientes submarinos de correntes de turbidez se conectam aos turbiditos portadores de petróleo em águas profundas.",
+    "tipo_inferencia": "ambiente_deposicional",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Turbidito",
+      "https://agencia.petrobras.com.br/w/negocio/petrobras-descobre-petroleo-em-aguas-ultra-profundas-da-bacia-potiguar"
+    ]
+  },
+  {
+    "id": 144,
+    "question": "O que um estrato de uma sequência turbidítica registra?",
+    "context": [
+      [
+        "Turbidito | Wikipédia",
+        [
+          "Cada estrato de uma sequência turbidítica é depositado em um único evento (fluxo)."
+        ]
+      ],
+      [
+        "Como Sabemos a Idade das Rochas? | SGB",
+        [
+          "As rochas sedimentares formam-se pela deposição de sedimentos"
+        ]
+      ]
+    ],
+    "expected_answer": "Um estrato turbidítico registra um único evento de fluxo responsável pela deposição daquele estrato.",
+    "tipo_inferencia": "processual_deposicional",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Turbidito",
+      "https://www.sgb.gov.br/como-sabemos-a-idade-das-rochas"
+    ]
+  },
+  {
+    "id": 145,
+    "question": "Que característica de turbiditos explica sua continuidade como alvo petrolífero?",
+    "context": [
+      [
+        "Turbidito | Wikipédia",
+        [
+          "Para a maioria dos geólogos, um turbidito é uma camada com gradação grano-classificada consistindo num conjunto de estratos arenito/pelito que foram depositados por corrente de turbidez e é comumente coberta por pelitos hemipelágicos contendo assembléia de fósseis de águas profundas.",
+          "Os depósitos se formam por fluxos hiperpicnais concentrados, constituindo sucessões de estratos sedimentares arenosos e pelágicos bastante espessos, num curto período de tempo geológico.",
+          "As sequências turbidíticas são muito procuradas pelos geólogos de petróleo por constituírem bons reservatórios para hidrocarbonetos."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "O reservatório é uma unidade litológica porosa e permeável ou conjunto de unidade que retém as reservas de hidrocarbonetos."
+        ]
+      ]
+    ],
+    "expected_answer": "A presença de estratos arenosos depositados por correntes de turbidez e sua função como bons reservatórios explicam seu interesse petrolífero.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://pt.wikipedia.org/wiki/Turbidito",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 146,
+    "question": "Qual conclusão se obtém ao combinar arenitos, porosidade e hidrocarbonetos?",
+    "context": [
+      [
+        "Petróleo | SGB",
+        [
+          "Ele é um líquido que ocorre entre os grãos de rochas sedimentares porosas e permeáveis, como arenitos, por exemplo, ou em cavidades interconectadas de rochas como calcário."
+        ]
+      ],
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "A condição para o armazenamento do petróleo nas rochas reservatório é a porosidade de tais rochas, que variam de 5% a 35%, tendo em média de 15% a 30%.",
+          "Geralmente são compostas por granulometria de areia a seixo como arenitos, calcarenitos ou conglomerados."
+        ]
+      ]
+    ],
+    "expected_answer": "Arenitos podem atuar como rochas reservatório quando possuem porosidade e permeabilidade suficientes para armazenar e permitir o fluxo dos hidrocarbonetos.",
+    "tipo_inferencia": "composicional_petrofisica",
+    "source": [
+      "https://www.sgb.gov.br/petroleo",
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero"
+    ]
+  },
+  {
+    "id": 147,
+    "question": "Que entidade deve ser relacionada a estruturas favoráveis à concentração de petróleo?",
+    "context": [
+      [
+        "Petróleo | SGB",
+        [
+          "Isso tudo define se existem, na área estudada, estruturas geológicas favoráveis à concentração de petróleo."
+        ]
+      ],
+      [
+        "Geologia do petróleo | Wikipédia",
+        [
+          "A 'trapa é a característica estratigráfica ou estrutural, que garante a justaposição do reservatório e selo de tal forma que os hidrocarbonetos permanecem presos no subsolo, em vez de fugir (devido à sua natural flutuabilidade) e se perderem."
+        ]
+      ]
+    ],
+    "expected_answer": "Armadilhas ou trapas devem ser relacionadas a estruturas geológicas favoráveis à concentração de petróleo.",
+    "tipo_inferencia": "estrutural",
+    "source": [
+      "https://www.sgb.gov.br/petroleo",
+      "https://pt.wikipedia.org/wiki/Geologia_do_petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 148,
+    "question": "Por que uma camada de sal pode ser interpretada como rocha capeadora?",
+    "context": [
+      [
+        "Petróleo | SGB",
+        [
+          "Folhelhos e camadas de sal são rochas capeadoras comuns."
+        ]
+      ],
+      [
+        "Petróleo do Pré-Sal | SGB",
+        [
+          "Essa barreira, chamada de trapa, pode ser uma rocha impermeável, como uma camada de sal.",
+          "Essa espessa camada de sal, formada principalmente de halita (cloreto de sódio, ou seja, o sal que usamos na comida) e anidrita (sulfato de cálcio) é uma barreira que se formou diretamente sobre a rocha geradora, impedindo que, neste caso, o petróleo migrasse."
+        ]
+      ]
+    ],
+    "expected_answer": "Porque camadas de sal são rochas capeadoras comuns e podem impedir a migração dos hidrocarbonetos.",
+    "tipo_inferencia": "selo_e_retencao",
+    "source": [
+      "https://www.sgb.gov.br/petroleo",
+      "https://www.sgb.gov.br/petroleo-do-pre-sal"
+    ]
+  },
+  {
+    "id": 149,
+    "question": "Que entidade explica o armazenamento do petróleo entre grãos ou em cavidades interconectadas?",
+    "context": [
+      [
+        "Petróleo | SGB",
+        [
+          "Ele é um líquido que ocorre entre os grãos de rochas sedimentares porosas e permeáveis, como arenitos, por exemplo, ou em cavidades interconectadas de rochas como calcário."
+        ]
+      ],
+      [
+        "Petróleo | Wikipédia",
+        [
+          "Os hidrocarbonetos, portanto, ocupam espaços porosos nas rochas, sejam eles entre grãos ou fraturas."
+        ]
+      ]
+    ],
+    "expected_answer": "A rocha reservatório explica esse armazenamento, pois hidrocarbonetos ocupam poros entre grãos ou fraturas/cavidades interconectadas.",
+    "tipo_inferencia": "ontologica_entidade_funcao",
+    "source": [
+      "https://www.sgb.gov.br/petroleo",
+      "https://pt.wikipedia.org/wiki/Petr%C3%B3leo"
+    ]
+  },
+  {
+    "id": 150,
+    "question": "Que interpretação integra formação, migração e retenção em uma acumulação petrolífera?",
+    "context": [
+      [
+        "Petróleo do Pré-Sal | SGB",
+        [
+          "Ele forma-se em uma rocha, chamada rocha geradora a partir de restos orgânicos, sobretudo micro-organismos animais.",
+          "Com isso, o petróleo migra para cima através dos poros existentes nas rochas, até encontrar algo que o impeça de continuar se deslocando.",
+          "Essa barreira, chamada de trapa, pode ser uma rocha impermeável, como uma camada de sal."
+        ]
+      ],
+      [
+        "Sistema petrolífero | Wikipédia",
+        [
+          "Para que estas acumulações ocorram, necessita-se de rochas geradoras maduras, rocha reservatório, rocha selante e a sobrecarga.",
+          "Além da presença destas rochas, dois processos geológicos são fundamentais: a formação de trapas e a geração, migração e acumulação de hidrocarbonetos."
+        ]
+      ]
+    ],
+    "expected_answer": "A acumulação exige rocha geradora, migração por poros/fraturas e retenção em reservatório fechado por trapa ou selo.",
+    "tipo_inferencia": "interpretativa",
+    "source": [
+      "https://www.sgb.gov.br/petroleo-do-pre-sal",
+      "https://pt.wikipedia.org/wiki/Sistema_petrol%C3%ADfero"
+    ]
+  }
+]
