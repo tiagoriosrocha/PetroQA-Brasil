@@ -5,6 +5,7 @@
 A versao atualmente presente neste repositorio contem:
 
 - `dataset_full.json`: dataset final em JSON, com 150 itens;
+- `dataset_full.csv`: dataset final em csv, com 150 itens;
 - `sources.csv`: catalogo de 20 fontes em portugues usadas na construcao;
 - `audit_questions_vs_sources.csv`: trilha de auditoria ligando trechos de contexto as fontes;
 - `ragas_evaluation.csv`: avaliacao automatizada por item com metricas de contexto e resposta;
@@ -21,37 +22,6 @@ O projeto foi desenhado para avaliar sistemas de QA em Geociencias em cenarios n
 - idade relativa -> posicao estratigrafica -> evolucao geologica.
 
 Em outras palavras, o dataset serve melhor para testar recuperacao contextual, fidelidade a fonte e capacidade de inferencia geocientifica do que para perguntas puramente factuais de uma unica sentenca.
-
-## Estrutura do repositorio
-
-```text
-.
-├── README.md
-├── dataset_full.json
-├── sources.csv
-├── audit_questions_vs_sources.csv
-├── ragas_evaluation.csv
-└── scripts_geracao/
-    ├── README_GENERATION_SCRIPTS.md
-    ├── requirements-generation.txt
-    ├── run_pipeline_example.sh
-    ├── config/
-    │   └── relation_types.json
-    ├── examples/
-    │   └── sources.example.csv
-    ├── prompts/
-    │   ├── system_prompt_geoinfer_pt.md
-    │   └── user_prompt_template.md
-    └── scripts/
-        ├── 01_fetch_sources.py
-        ├── 02_extract_candidate_passages.py
-        ├── 03_build_generation_prompts.py
-        ├── 04_generate_with_llm.py
-        ├── 05_merge_and_validate_dataset.py
-        ├── 06_apply_item_corrections.py
-        ├── 07_export_csv.py
-        └── 08_build_source_audit.py
-```
 
 ## Artefatos principais
 
