@@ -10,8 +10,6 @@ A versao atualmente presente neste repositorio contem:
 - `ragas_evaluation.csv`: avaliacao automatizada por item com metricas de contexto e resposta;
 - `scripts_geracao/`: pipeline reproduzivel para gerar, validar, corrigir e exportar o dataset.
 
-> Observacao: alguns scripts, prompts e descricoes internas ainda preservam o nome historico `GeoInfer-PT`. Neste repositorio, o nome do projeto e `PetroQA-Brasil`.
-
 ## Objetivo
 
 O projeto foi desenhado para avaliar sistemas de QA em Geociencias em cenarios nos quais a resposta exige combinar evidencias, por exemplo:
@@ -246,5 +244,9 @@ Para avaliacao de sistemas de QA, a pratica mais consistente e:
 ## Citacao sugerida
 
 ```text
-PetroQA-Brasil is a Portuguese geoscience question-answering dataset focused on source-grounded relational inference over geological and petroleum-geology texts. Each item contains a question, one or more literal context excerpts, an expected answer, source URLs, and an inference-type label for analysis.
+PetroQA-Brasil is a Portuguese geoscience question-answering dataset focused on source-grounded relational inference over geological and petroleum-geology texts.
+
+Authors: Tiago Rios da Rocha, João Netto, Karin Becker
+Institution: Universidade Federal do Rio Grande do Sul
+Project: OntoKG
 ```
