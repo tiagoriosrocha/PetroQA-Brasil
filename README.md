@@ -55,7 +55,7 @@ Em outras palavras, o dataset serve melhor para testar recuperacao contextual, f
 
 ## Artefatos principais
 
-### `dataset_full.json`
+### `dataset_full.json` e `dataset_full.csv` 
 
 Arquivo principal do projeto. Cada item contem:
 
