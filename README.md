@@ -11,6 +11,9 @@ A versão atualmente presente neste repositório contém:
 - `ragas_evaluation.csv`: avaliação automatizada por item com métricas de contexto e resposta;
 - `scripts_geracao/`: pipeline reproduzível para gerar, validar, corrigir e exportar o dataset.
 
+Repository (v.1 - RAG): <https://github.com/tiagoriosrocha/PetroQA-Brasil>
+Repository (v.2 - GraphRAG): <https://github.com/tiagoriosrocha/PetroQA-Brasil-GraphRAG>
+
 ## Objetivo
 
 O projeto foi desenhado para avaliar sistemas de QA em Geociências em cenários nos quais a resposta exige combinar evidências, por exemplo:
